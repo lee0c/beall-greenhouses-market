@@ -18,6 +18,18 @@ body {
   background-color: light-dark(var(--color-light), var(--color-dark));
 }
 
+@media (prefers-color-scheme: light) {
+  #dark-logo {
+    visibility: hidden;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #light-logo {
+    visibility: hidden;
+  }
+}
+
 a,
 a:active {
   color: light-dark(var(--color-orange-light), var(--color-orange-dark));
