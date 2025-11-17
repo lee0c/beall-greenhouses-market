@@ -1,0 +1,25 @@
+:root {
+  color-scheme: light dark;
+
+  --color-light: #d5e9ff;
+  --color-dark: #001a33;
+  --color-orange-light: #ff764f;
+  --color-orange-dark: #f55e33;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: light-dark(var(--color-dark), var(--color-light));
+  background-color: light-dark(var(--color-light), var(--color-dark));
+}
+
+a,
+a:active {
+  color: light-dark(var(--color-orange-light), var(--color-orange-dark));
+}
+
