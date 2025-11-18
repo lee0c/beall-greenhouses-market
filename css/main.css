@@ -85,7 +85,8 @@ h1 {
 }
 
 h2 {
-  margin: 1rem 0 0;
+  margin: 2rem 0 0;
+  border-bottom: solid light-dark(var(--color-orange-dark), var(--color-orange-light));
 }
 
 a {
