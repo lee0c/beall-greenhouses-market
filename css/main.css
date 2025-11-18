@@ -90,6 +90,7 @@ h2 {
 }
 
 a {
+  background-color: light-dark(var(--color-light), var(--color-dark));
   color: light-dark(var(--color-dark), var(--color-light));
   font-weight: bold;
   text-decoration: underline;
