@@ -14,24 +14,127 @@
 }
 
 body {
-  color: light-dark(var(--color-dark), var(--color-light));
+  background-color: light-dark(var(--color-dark), var(--color-light));
+  color: light-dark(var(--color-light), var(--color-dark));
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+#content {
   background-color: light-dark(var(--color-light), var(--color-dark));
+  color: light-dark(var(--color-dark), var(--color-light));
+  width: 100%;
+  flex-grow: 1;
+  border-radius: 0 0 2rem 2rem;
+  padding: 2rem 0;
+}
+
+header,
+main {
+  width: 65%;
+  margin: 0 auto;
+}
+
+@media (max-width: 650px) {
+  header,
+  main {
+    width: 95%;
+  }
+}
+
+header img {
+  display: block;
+  max-height: 25vh;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 @media (prefers-color-scheme: light) {
   #dark-logo {
-    visibility: hidden;
+    display: none;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   #light-logo {
-    visibility: hidden;
+    display: none;
   }
 }
 
-a,
-a:active {
-  color: light-dark(var(--color-orange-light), var(--color-orange-dark));
+h1 {
+  text-align: center;
+  margin: 2rem 0;
 }
 
+h2 {
+  margin: 1rem 0 0;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: solid underline .25rem;
+}
+
+#content p {
+  margin: .5rem 0 0 2.5rem;
+}
+
+@media (max-width: 650px) {
+  #content p {
+    margin-left: 1.25rem;
+  }
+}
+
+#artists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.artist {
+  margin: .5rem 0 0 1.25rem;
+}
+
+@media (max-width: 650px) {
+  .artist {
+    margin-left: .625rem;
+  }
+}
+
+.artist img {
+  max-height: 35vh;
+  max-width: 100%;
+}
+
+@media (max-width: 650px) {
+  .artist img {
+    max-width: 100%;
+  }
+}
+
+footer {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 0 1rem;
+}
+
+footer p {
+  text-align: center;
+  margin: 1rem 0 0;
+}
+
+footer a {
+  color: light-dark(var(--color-light), var(--color-dark));
+  text-decoration-color: light-dark(var(--color-orange-light), var(--color-orange-dark));
+}
+
+#contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+  margin: 0 0 1rem;
+}
