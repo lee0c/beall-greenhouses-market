@@ -44,6 +44,16 @@ main {
   }
 }
 
+#wip {
+  background-color: light-dark(var(--color-dark), var(--color-light));
+  color: light-dark(var(--color-light), var(--color-dark));
+  margin: 1rem 0;
+  text-align: center;
+  padding: 1rem .5rem;
+  border: solid .25rem light-dark(var(--color-orange-light), var(--color-orange-dark));
+  border-radius: 1rem;
+}
+
 header img {
   display: block;
   max-height: 25vh;
@@ -74,7 +84,20 @@ h2 {
 
 a {
   font-weight: bold;
-  text-decoration: solid underline .25rem;
+  text-decoration: solid underline .25rem light-dark(var(--color-orange-dark), var(--color-orange-light));
+  transition: text-decoration-thickness .5s;
+  margin: 0 .25rem;
+}
+
+a:hover {
+  text-decoration-thickness: .5rem;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: solid .25rem light-dark(var(--color-orange-dark), var(--color-orange-light));
+  outline-offset: .1rem;
+  border-radius: .1rem;
 }
 
 #content p {
@@ -90,28 +113,31 @@ a {
 #artists {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .artist {
   margin: .5rem 0 0 1.25rem;
 }
 
+.artist img {
+  max-height: 35vh;
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
 @media (max-width: 650px) {
   .artist {
     margin-left: .625rem;
   }
-}
 
-.artist img {
-  max-height: 35vh;
-  max-width: 100%;
-}
-
-@media (max-width: 650px) {
   .artist img {
     max-width: 100%;
   }
+}
+
+.artist h3 {
+  text-align: center;
 }
 
 footer {
@@ -128,6 +154,10 @@ footer p {
 footer a {
   color: light-dark(var(--color-light), var(--color-dark));
   text-decoration-color: light-dark(var(--color-orange-light), var(--color-orange-dark));
+}
+
+footer a:focus {
+  outline-color: light-dark(var(--color-orange-light), var(--color-orange-dark));
 }
 
 #contacts {
