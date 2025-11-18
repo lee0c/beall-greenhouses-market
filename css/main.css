@@ -28,7 +28,6 @@ body {
   width: 100%;
   flex-grow: 1;
   border-radius: 0 0 2rem 2rem;
-  padding: 2rem 0;
 }
 
 header,
@@ -54,7 +53,7 @@ main {
 #wip {
   background-color: light-dark(var(--color-dark), var(--color-light));
   color: light-dark(var(--color-light), var(--color-dark));
-  margin: .1rem 0 1rem;
+  margin: 1rem 0 1rem;
   text-align: center;
   padding: 1rem .5rem;
   border: solid .25rem light-dark(var(--color-orange-light), var(--color-orange-dark));
