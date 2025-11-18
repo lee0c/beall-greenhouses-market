@@ -44,6 +44,13 @@ main {
   }
 }
 
+@media (min-width: 1800px) {
+  header,
+  main {
+    width: 45%;
+  }
+}
+
 #wip {
   background-color: light-dark(var(--color-dark), var(--color-light));
   color: light-dark(var(--color-light), var(--color-dark));
@@ -83,13 +90,15 @@ h2 {
 }
 
 a {
+  color: light-dark(var(--color-dark), var(--color-light));
   font-weight: bold;
   text-decoration: solid underline .25rem light-dark(var(--color-orange-dark), var(--color-orange-light));
   transition: text-decoration-thickness .5s;
   margin: 0 .25rem;
 }
 
-a:hover {
+a:hover,
+a:active {
   text-decoration-thickness: .5rem;
 }
 
@@ -100,12 +109,12 @@ a:focus {
   border-radius: .1rem;
 }
 
-#content p {
+main > p {
   margin: .5rem 0 0 2.5rem;
 }
 
 @media (max-width: 650px) {
-  #content p {
+  main > p {
     margin-left: 1.25rem;
   }
 }
@@ -114,10 +123,9 @@ a:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-
-.artist {
-  margin: .5rem 0 0 1.25rem;
+  row-gap: 2rem;
+  column-gap: 1rem;
+  margin: 2rem 0;
 }
 
 .artist img {
@@ -136,8 +144,14 @@ a:focus {
   }
 }
 
-.artist h3 {
+.artist h3,
+.artist p {
   text-align: center;
+  margin-top: .25rem;
+}
+
+.artist h3 {
+  text-transform: uppercase;
 }
 
 footer {
@@ -165,6 +179,6 @@ footer a:focus {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  gap: 1rem;
+  column-gap: 3rem;
   margin: 0 0 1rem;
 }
