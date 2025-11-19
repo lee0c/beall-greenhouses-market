@@ -60,8 +60,11 @@ main {
   border-radius: 1rem;
 }
 
-header img {
+img {
   display: block;
+}
+
+header img {
   max-height: 25vh;
   max-width: 100%;
   margin: 0 auto;
@@ -113,7 +116,11 @@ a:focus {
 }
 
 main > p {
-  margin: .5rem 0 0 2.5rem;
+  margin-left: 2.5rem;
+  background-color: light-dark(var(--color-dark), var(--color-light));
+  color: light-dark(var(--color-light), var(--color-dark));
+  padding: .5rem;
+  border-radius: 0 0 1rem 1rem;
 }
 
 @media (max-width: 650px) {
@@ -135,6 +142,7 @@ main > p {
   max-height: 35vh;
   max-width: 100%;
   border-radius: 1rem;
+  margin: 0 auto;
 }
 
 @media (max-width: 650px) {
