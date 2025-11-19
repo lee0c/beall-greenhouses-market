@@ -2,11 +2,22 @@
   width: 100%;
   margin: 1rem 0;
   display: grid;
-  grid-template: 
+}
+
+.right {
+  grid-template:
     'imgs h3'
     'imgs desc'
     'imgs .';
   grid-template-columns: 45% auto;
+}
+
+.left {
+  grid-template:
+    'h3 imgs'
+    'desc imgs'
+    '. imgs';
+  grid-template-columns: auto 45%;
 }
 
 @media (max-width: 1050px) {
@@ -31,24 +42,46 @@
 
 .artist h3 {
   grid-area: h3;
-  padding-left: .5rem;
   text-transform: uppercase;
+}
+
+.right h3 {
+  padding-left: .5rem;
+}
+
+.left h3 {
+  padding-right: .5rem;
+  text-align: right;
 }
 
 .description {
   grid-area: desc;
   background-color: light-dark(var(--color-dark), var(--color-light));
-  margin-left: 1.75rem;
   border-radius: 0 0 1rem 1rem;
+}
+
+.right .description {
+  margin-left: 1.75rem;
+}
+
+.left .description {
+  margin-right: 1.75rem;
 }
 
 @media (max-width: 1050px) {
   .artist h3 {
-    padding-left: 0;
-    padding-top: .5rem;
+    padding: .5rem 0 0;
   }
 
-  .description {
+  .left .description {
+    margin-right: .625rem;
+  }
+
+  .right .description {
     margin-left: .625rem;
   }
+}
+
+.description p:last-child {
+  text-align: center;
 }

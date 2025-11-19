@@ -60,6 +60,12 @@ main {
   border-radius: 1rem;
 }
 
+@media (max-width: 650px) {
+  #wip {
+    padding: .5rem;
+  }
+}
+
 img {
   display: block;
 }
