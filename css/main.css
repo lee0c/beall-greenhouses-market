@@ -89,16 +89,20 @@ h1 {
 
 h2 {
   margin: 2rem 0 0;
+}
+
+h2,
+h3 {
   border-bottom: .25rem solid light-dark(var(--color-orange-dark), var(--color-orange-light));
 }
 
 a {
-  color: light-dark(var(--color-dark), var(--color-light));
+  color: light-dark(var(--color-light), var(--color-dark));
   font-weight: bold;
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: .25rem;
-  text-decoration-color: light-dark(var(--color-orange-dark), var(--color-orange-light));
+  text-decoration-color: light-dark(var(--color-orange-light), var(--color-orange-dark));
   transition: text-decoration-thickness .5s;
   margin: 0 .25rem;
 }
@@ -115,54 +119,21 @@ a:focus {
   border-radius: .1rem;
 }
 
-main > p {
-  margin-left: 2.5rem;
+p {
   background-color: light-dark(var(--color-dark), var(--color-light));
   color: light-dark(var(--color-light), var(--color-dark));
   padding: .5rem;
   border-radius: 0 0 1rem 1rem;
 }
 
+main > p {
+  margin-left: 2.5rem;
+}
+
 @media (max-width: 650px) {
   main > p {
     margin-left: 1.25rem;
   }
-}
-
-#artists {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  row-gap: 2rem;
-  column-gap: 1rem;
-  margin: 2rem 0;
-}
-
-.artist-name-bg {
-  background-color: light-dark(var(--color-dark), var(--color-light));
-  color: light-dark(var(--color-light), var(--color-dark));
-  border-radius: 1rem;
-}
-
-.artist img {
-  max-height: 35vh;
-  max-width: 100%;
-  border-radius: 1rem;
-  margin: 0 auto;
-}
-
-.artist h3,
-.artist p {
-  text-align: center;
-}
-
-.artist h3 {
-  text-transform: uppercase;
-  padding: .25rem 0;
-}
-
-.artist p {
-  margin-top: .25rem;
 }
 
 footer {

@@ -1,0 +1,54 @@
+.artist {
+  width: 100%;
+  margin: 1rem 0;
+  display: grid;
+  grid-template: 
+    'imgs h3'
+    'imgs desc'
+    'imgs .';
+  grid-template-columns: 45% auto;
+}
+
+@media (max-width: 1050px) {
+  .artist {
+    grid-template:
+      'imgs'
+      'h3'
+      'desc';
+  }
+}
+
+.fit-contain {
+  object-fit: contain;
+  grid-area: imgs;
+}
+
+.artist img {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+.artist h3 {
+  grid-area: h3;
+  padding-left: .5rem;
+  text-transform: uppercase;
+}
+
+.description {
+  grid-area: desc;
+  background-color: light-dark(var(--color-dark), var(--color-light));
+  margin-left: 1.75rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+@media (max-width: 1050px) {
+  .artist h3 {
+    padding-left: 0;
+    padding-top: .5rem;
+  }
+
+  .description {
+    margin-left: .625rem;
+  }
+}
