@@ -108,7 +108,7 @@ a {
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: .25rem;
-  text-decoration-color: light-dark(var(--color-orange-light), var(--color-orange-dark));
+  text-decoration-color: light-dark(var(--color-orange-dark), var(--color-orange-light));
   transition: text-decoration-thickness .5s;
   margin: 0 .25rem;
 }
