@@ -4,7 +4,7 @@
   display: grid;
 }
 
-.right {
+.artist:nth-child(odd) {
   grid-template:
     'imgs h3'
     'imgs desc'
@@ -12,7 +12,7 @@
   grid-template-columns: 45% auto;
 }
 
-.left {
+.artist:nth-child(even) {
   grid-template:
     'h3 imgs'
     'desc imgs'
@@ -22,6 +22,10 @@
 
 @media (max-width: 1050px) {
   .artist {
+    margin: 1rem 0 3rem;
+  }
+  
+  .artist:nth-child(n) {
     grid-template:
       'imgs'
       'h3'
@@ -45,11 +49,11 @@
   text-transform: uppercase;
 }
 
-.right h3 {
+.artist:nth-child(odd) h3 {
   padding-left: .5rem;
 }
 
-.left h3 {
+.artist:nth-child(even) h3 {
   padding-right: .5rem;
   text-align: right;
 }
@@ -60,25 +64,25 @@
   border-radius: 0 0 1rem 1rem;
 }
 
-.right .description {
+.artist:nth-child(odd) .description {
   margin-left: 1.75rem;
 }
 
-.left .description {
+.artist:nth-child(even) .description {
   margin-right: 1.75rem;
 }
 
 @media (max-width: 1050px) {
-  .artist h3 {
+  .artist:nth-child(n) h3 {
     padding: .5rem 0 0;
   }
 
-  .left .description {
-    margin-right: .625rem;
+  .artist:nth-child(odd) .description {
+    margin-left: .625rem;
   }
 
-  .right .description {
-    margin-left: .625rem;
+  .artist:nth-child(even) .description {
+    margin-right: .625rem;
   }
 }
 
