@@ -2,7 +2,9 @@
   color-scheme: light dark;
 
   --color-light: #d5e9ff;
+  --color-light-alt: #d5e9ff;
   --color-dark: #001a33;
+  --color-dark-alt: #00274b;
   --color-orange-light: #ff764f;
   --color-orange-dark: #f55e33;
 }
@@ -51,8 +53,8 @@ main {
 }
 
 #wip {
-  background-color: light-dark(var(--color-dark), var(--color-light));
-  color: light-dark(var(--color-light), var(--color-dark));
+  background-color: light-dark(var(--color-light-alt), var(--color-dark-alt));
+  color: light-dark(var(--color-dark), var(--color-light));
   margin: 1rem 0 1rem;
   text-align: center;
   padding: 1rem .5rem;
@@ -103,7 +105,7 @@ h3 {
 }
 
 a {
-  color: light-dark(var(--color-light), var(--color-dark));
+  color: light-dark(var(--color-dark), var(--color-light));
   font-weight: bold;
   text-decoration: underline;
   text-decoration-style: solid;
@@ -126,8 +128,8 @@ a:focus {
 }
 
 p {
-  background-color: light-dark(var(--color-dark), var(--color-light));
-  color: light-dark(var(--color-light), var(--color-dark));
+  background-color: light-dark(var(--color-light-alt), var(--color-dark-alt));
+  color: light-dark(var(--color-dark), var(--color-light));
   padding: .5rem;
   border-radius: 0 0 1rem 1rem;
 }
@@ -149,6 +151,8 @@ footer {
 }
 
 footer p {
+  background-color: light-dark(var(--color-dark), var(--color-light));
+  color: light-dark(var(--color-light), var(--color-dark));
   text-align: center;
   margin: 1rem 0 0;
 }

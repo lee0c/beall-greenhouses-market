@@ -24,7 +24,7 @@
   .artist {
     margin: 1rem 0 3rem;
   }
-  
+
   .artist:nth-child(n) {
     grid-template:
       'imgs'
@@ -60,7 +60,7 @@
 
 .description {
   grid-area: desc;
-  background-color: light-dark(var(--color-dark), var(--color-light));
+  background-color: light-dark(var(--color-light-alt), var(--color-dark-alt));
   border-radius: 0 0 1rem 1rem;
 }
 
