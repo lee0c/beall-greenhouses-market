@@ -1,6 +1,6 @@
 .artist {
   width: 100%;
-  margin: 1rem 0;
+  margin: 2rem 0;
   display: grid;
 }
 
@@ -21,10 +21,6 @@
 }
 
 @media (max-width: 1050px) {
-  .artist {
-    margin: 1rem 0 3rem;
-  }
-
   .artist:nth-child(n) {
     grid-template:
       'imgs'
