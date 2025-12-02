@@ -30,6 +30,7 @@ body {
   width: 100%;
   flex-grow: 1;
   border-radius: 0 0 2rem 2rem;
+  padding-top: 2rem;
 }
 
 header,
@@ -49,22 +50,6 @@ main {
   header,
   main {
     width: 45%;
-  }
-}
-
-#wip {
-  background-color: light-dark(var(--color-light-alt), var(--color-dark-alt));
-  color: light-dark(var(--color-dark), var(--color-light));
-  margin: 1rem 0 1rem;
-  text-align: center;
-  padding: 1rem .5rem;
-  border: solid .25rem light-dark(var(--color-orange-dark), var(--color-orange-light));
-  border-radius: 1rem;
-}
-
-@media (max-width: 650px) {
-  #wip {
-    padding: .5rem;
   }
 }
 
