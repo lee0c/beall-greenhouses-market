@@ -84,4 +84,5 @@
 
 .description p:last-child {
   text-align: center;
+  padding-bottom: 1rem;
 }
