@@ -162,23 +162,16 @@ nav {
 nav a {
   text-decoration: none;
   font-size: 1.2rem;
-  color: var(--color-accent);
   padding: 0 .25rem;
-  border: solid thin;
+  border: solid thin var(--color-accent);
   border-radius: .25rem;
 }
 
 @media (any-hover: hover) {
   nav a:hover {
-    background-color: var(--color-accent);
-    color: var(--color-bg);
+    outline: solid .25rem var(--color-accent);
+    outline-offset: .1rem;
   }
-}
-
-nav a:focus-visible {
-  outline: none;
-  background-color: var(--color-accent);
-  color: var(--color-bg);
 }
 
 footer {
