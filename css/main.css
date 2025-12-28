@@ -36,7 +36,7 @@ body {
   width: 100%;
   flex-grow: 1;
   border-radius: 0 0 2rem 2rem;
-  padding-top: 2rem;
+  padding: 1rem 0 2rem;
 }
 
 header,
@@ -52,7 +52,7 @@ main {
   }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 2000px) {
   header,
   main {
     width: 45%;

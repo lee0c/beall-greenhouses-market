@@ -1,0 +1,48 @@
+#directory {
+  display: grid;
+  flex-flow: row wrap;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+@media (max-width: 850px) {
+  #directory {
+    grid-template-columns: 1fr;
+  }
+}
+
+#directory li {
+  list-style: none;
+  border: solid thin var(--color-accent);
+  border-radius: .5rem;
+  outline-offset: .1rem;
+}
+
+@media (any-hover: hover) {
+  #directory li:hover {
+    outline: solid .25rem var(--color-accent);
+  }
+}
+
+#directory li:focus-within {
+  outline: solid .25rem var(--color-accent);
+}
+
+#directory a {
+  text-decoration: none;
+  margin: 0;
+}
+
+#directory a:focus-visible {
+  outline: none; /* outline handled by li:focus-within */
+}
+
+#directory h2 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#directory img {
+  margin: 0;
+  border-radius: 0 0 .5rem .5rem;
+}
