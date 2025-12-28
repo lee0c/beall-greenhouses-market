@@ -111,7 +111,7 @@ a:active {
   text-decoration-thickness: .5rem;
 }
 
-a:focus {
+a:focus-visible {
   text-decoration: none;
   outline: solid .25rem var(--color-accent);
   outline-offset: .1rem;
@@ -153,7 +153,7 @@ footer a {
   text-decoration-color: var(--color-accent-flipped);
 }
 
-footer a:focus {
+footer a:focus-visible {
   outline-color: var(--color-accent-flipped);
 }
 
