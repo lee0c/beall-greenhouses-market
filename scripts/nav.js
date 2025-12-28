@@ -13,7 +13,6 @@ const navItems = [
 const populateNav = function() {
   let nav = document.getElementById("top-nav");
   let path = window.location.pathname;
-  console.log(path);
 
   for (const item of navItems) {
     let a = document.createElement("a");
