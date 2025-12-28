@@ -70,13 +70,13 @@ header img {
 }
 
 @media (prefers-color-scheme: light) {
-  #dark-logo {
+  #logo-dark {
     display: none;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  #light-logo {
+  #logo-light {
     display: none;
   }
 }
