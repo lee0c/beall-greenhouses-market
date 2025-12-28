@@ -105,6 +105,7 @@ a {
   transition: text-decoration-thickness .5s;
   margin: 0 .25rem;
   border-radius: .1rem;
+  outline-offset: .1rem;
 }
 
 a:hover,
@@ -115,7 +116,6 @@ a:active {
 a:focus-visible {
   text-decoration: none;
   outline: solid .25rem var(--color-accent);
-  outline-offset: .1rem;
 }
 
 p {
@@ -170,7 +170,6 @@ nav a {
 @media (any-hover: hover) {
   nav a:hover {
     outline: solid .25rem var(--color-accent);
-    outline-offset: .1rem;
   }
 }
 
