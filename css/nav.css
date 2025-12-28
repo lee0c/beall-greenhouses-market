@@ -1,6 +1,8 @@
 /* top nav */
 nav {
   margin: 0 auto 1.5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav a {
@@ -17,8 +19,8 @@ nav a {
   }
 }
 
-nav:has(#directory-link) {
-  text-align: right;
+#current-page {
+  visibility: hidden;
 }
 
 header img {
