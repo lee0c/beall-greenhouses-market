@@ -135,6 +135,52 @@ main > p {
   }
 }
 
+ul {
+  background-color: var(--color-alt);
+  padding: .5rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+main > ul {
+  margin-left: 2.5rem;
+}
+
+@media (max-width: 650px) {
+  main > ul {
+    margin-left: 1.25rem;
+  }
+}
+
+li {
+  line-height: 2rem;
+}
+
+nav {
+  margin: 0 auto 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--color-accent);
+  padding: 0 .25rem;
+  border: solid thin;
+  border-radius: .25rem;
+}
+
+@media (any-hover: hover) {
+  nav a:hover {
+    background-color: var(--color-accent);
+    color: var(--color-bg);
+  }
+}
+
+nav a:focus-visible {
+  outline: none;
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+}
+
 footer {
   width: 95%;
   margin: 0 auto;
@@ -164,4 +210,17 @@ footer a:focus-visible {
   align-content: center;
   column-gap: 3rem;
   margin: 0 0 1rem;
+}
+
+#market-list {
+  display: flex;
+}
+
+#market-list li {
+  list-style: none;
+  font-size: 1rem;
+}
+
+#market-list li:not(:last-child)::after {
+  content: '⦿';
 }
