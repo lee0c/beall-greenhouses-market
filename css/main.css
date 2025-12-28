@@ -104,6 +104,7 @@ a {
   text-decoration-color: var(--color-accent);
   transition: text-decoration-thickness .5s;
   margin: 0 .25rem;
+  border-radius: .1rem;
 }
 
 a:hover,
@@ -115,7 +116,6 @@ a:focus-visible {
   text-decoration: none;
   outline: solid .25rem var(--color-accent);
   outline-offset: .1rem;
-  border-radius: .1rem;
 }
 
 p {
