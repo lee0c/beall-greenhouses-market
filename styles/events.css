@@ -1,4 +1,4 @@
-#directory {
+#events {
   display: grid;
   flex-flow: row wrap;
   grid-template-columns: repeat(2, 1fr);
@@ -6,12 +6,12 @@
 }
 
 @media (max-width: 850px) {
-  #directory {
+  #events {
     grid-template-columns: 1fr;
   }
 }
 
-#directory li {
+#events li {
   list-style: none;
   border: solid thin var(--color-accent);
   border-radius: .5rem;
@@ -19,30 +19,30 @@
 }
 
 @media (any-hover: hover) {
-  #directory li:hover {
+  #events li:hover {
     outline: solid .25rem var(--color-accent);
   }
 }
 
-#directory li:focus-within {
+#events li:focus-within {
   outline: solid .25rem var(--color-accent);
 }
 
-#directory a {
+#events a {
   text-decoration: none;
   margin: 0;
 }
 
-#directory a:focus-visible {
+#events a:focus-visible {
   outline: none; /* outline handled by li:focus-within */
 }
 
-#directory h2 {
+#events h2 {
   text-align: center;
   margin-top: 1rem;
 }
 
-#directory img {
+#events img {
   margin: 0;
   border-radius: 0 0 .5rem .5rem;
 }

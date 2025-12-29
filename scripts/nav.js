@@ -5,8 +5,8 @@ const navItems = [
     name: "↩ back home"
   },
   {
-    href: "/directory/",
-    name: "🧺 all markets"
+    href: "/events/",
+    name: "📅 all events"
   }
 ];
 
