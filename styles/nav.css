@@ -19,8 +19,19 @@ nav a {
   }
 }
 
-#current-page {
+nav div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* this specifically handles the home button
+we want it taking up flex container space */
+nav > #current-page {
   visibility: hidden;
+}
+
+nav > div > #current-page {
+  display: none;
 }
 
 header img {

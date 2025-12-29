@@ -1,10 +1,6 @@
 /* Top nav */
 const navItems = [
   {
-    href: "/",
-    title: "↩ back home"
-  },
-  {
     href: "/about/",
     title: "ⓘ about"
   },
@@ -18,6 +14,14 @@ const populateNav = function() {
   let nav = document.getElementById("top-nav");
   let path = window.location.pathname;
 
+  let home = document.createElement("a");
+  home.href = "/";
+  home.innerHTML = "↩ home";
+  if (path === "/") home.id = "current-page";
+  nav.append(home);
+
+  let div = document.createElement("div");
+
   for (const item of navItems) {
     let a = document.createElement("a");
     a.href = item.href;
@@ -25,8 +29,10 @@ const populateNav = function() {
 
     if (item.href === path) a.id = "current-page";
 
-    nav.append(a);
+    div.append(a);
   }
+
+  nav.append(div);
 }
 
 populateNav();
