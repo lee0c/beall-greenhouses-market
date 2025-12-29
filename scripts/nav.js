@@ -20,19 +20,21 @@ const populateNav = function() {
   if (path === "/") home.id = "current-page";
   nav.append(home);
 
-  let div = document.createElement("div");
+  let ul = document.createElement("ul");
 
   for (const item of navItems) {
+    let li = document.createElement("li");
     let a = document.createElement("a");
     a.href = item.href;
     a.innerHTML = item.title;
 
     if (item.href === path) a.id = "current-page";
 
-    div.append(a);
+    li.append(a);
+    ul.append(li);
   }
 
-  nav.append(div);
+  nav.append(ul);
 }
 
 populateNav();

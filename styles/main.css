@@ -102,13 +102,13 @@ a:focus-visible {
 }
 
 p,
-ul {
+main ul {
   padding: .5rem;
   background-color: var(--color-alt);
   border-radius: 0 0 1rem 1rem;
 }
 
-li {
+main li {
   margin-left: 1rem;
 }
 
