@@ -2,11 +2,15 @@
 const navItems = [
   {
     href: "/",
-    name: "↩ back home"
+    title: "↩ back home"
+  },
+  {
+    href: "/about/",
+    title: "ⓘ about"
   },
   {
     href: "/events/",
-    name: "📅 all events"
+    title: "🗓 events"
   }
 ];
 
@@ -17,7 +21,7 @@ const populateNav = function() {
   for (const item of navItems) {
     let a = document.createElement("a");
     a.href = item.href;
-    a.innerHTML = item.name;
+    a.innerHTML = item.title;
 
     if (item.href === path) a.id = "current-page";
 
