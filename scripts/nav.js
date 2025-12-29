@@ -46,7 +46,7 @@ const footerHTML = `
       </a>
     </p>
   </div>
-  <p>brought to you in 2025</p>
+  <p>brought to you in 2026</p>
 `
 
 const populateFooter = function() {
