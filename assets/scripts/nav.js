@@ -2,35 +2,51 @@
 const navItems = [
   {
     href: "/about/",
-    title: "ⓘ about"
+    title: "ⓘ about",
+    tooltip: "about the Beall Greenhouses"
   },
   {
     href: "/events/",
-    title: "🗓 events"
+    title: "🗓 events",
+    tooltip: "events at the Beall Greenhouses"
+  },
+  {
+    href: "/artists/",
+    title: "🖌 artists",
+    tooltip: "artists in residence at the Beall Greenhouses"
   }
 ];
 
-const populateNav = function() {
-  let nav = document.getElementById("top-nav");
+const createMenuLink = function(title, href, tooltip) {
   let path = window.location.pathname;
 
-  let home = document.createElement("a");
-  home.href = "/";
-  home.innerHTML = "↩ home";
-  if (path === "/") home.id = "current-page";
-  nav.append(home);
+  let a = document.createElement("a");
+  a.href = href;
+  a.innerHTML = title;
+  a.title = tooltip;
+  a.ariaLabel = tooltip;
+  if (path === href) a.id = "current-page";
+
+  return a;
+}
+
+const createSkipLink = function() {
+  let a = createMenuLink("skip ↷", "#main", "skip to main content");
+  a.id = "skip";
+  return a;
+}
+
+const populateNav = function() {
+  let nav = document.getElementById("top-nav");
+
+  nav.append(createSkipLink());
+  nav.append(createMenuLink("↩ home", "/", "home page for the Beall Greenhouses"));
 
   let ul = document.createElement("ul");
 
   for (const item of navItems) {
     let li = document.createElement("li");
-    let a = document.createElement("a");
-    a.href = item.href;
-    a.innerHTML = item.title;
-
-    if (item.href === path) a.id = "current-page";
-
-    li.append(a);
+    li.append(createMenuLink(item.title, item.href, item.tooltip));
     ul.append(li);
   }
 
