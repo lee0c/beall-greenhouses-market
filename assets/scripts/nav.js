@@ -42,15 +42,9 @@ populateNav();
 /* Footer */
 const footerHTML = `
   <div id="contacts">
-    <p>
-      Website questions or feedback?
-      <a href="mailto:lee.cattarin@gmail.com?cc=montanahawke@gmail.com&subject=Beall%20Greenhouses%20Market">
-        email Lee
-      </a>
-    </p>
-    <p>Market questions?
-      <a href="mailto:montanahawke@gmail.com?subject=Beall%20Greenhouses%20Market">
-        email Hawke
+    <p>questions?
+      <a href="mailto:beall.greenhouses@gmail.com">
+        email us!
       </a>
     </p>
   </div>
