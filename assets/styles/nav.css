@@ -6,15 +6,25 @@ nav {
 }
 
 nav a {
+  display: block;
   text-decoration: none;
   font-size: 1.2rem;
   padding: 0 .25rem;
+  border: solid thin var(--color-accent);
+  border-radius: .25rem;
+  outline-offset: .1rem;
 }
 
 @media (any-hover: hover) {
   nav a:hover {
-    outline: solid .25rem var(--color-accent);
+    color: var(--color-bg);
+    background-color: var(--color-text);
+    border-color: var(--color-text);
   }
+}
+
+nav a:focus-visible {
+  outline: solid .25rem var(--color-accent);
 }
 
 nav ul {
@@ -25,17 +35,6 @@ nav ul {
 
 nav li {
   list-style: none;
-  border: solid thin var(--color-accent);
-  border-radius: .25rem;
-  outline-offset: .1rem;
-}
-
-nav li:focus-within {
-  outline: solid .25rem var(--color-accent);
-}
-
-nav li a:focus-visible {
-  outline: none; /* handled by above nav li rule */
 }
 
 /* this specifically handles the home button

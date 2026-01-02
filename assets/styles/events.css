@@ -20,7 +20,12 @@
 
 @media (any-hover: hover) {
   #events li:hover {
-    outline: solid .25rem var(--color-accent);
+    background-color: var(--color-text);
+    border-color: var(--color-text);
+  }
+
+  #events li:hover h2 {
+    color: var(--color-bg);
   }
 }
 
