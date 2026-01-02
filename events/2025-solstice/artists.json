@@ -2,7 +2,7 @@
   {
     "id": "brooke",
     "img": {
-      "src": "/img/2025-solstice/brooke.jpg",
+      "src": "/assets/img/2025-solstice/brooke.jpg",
       "alt": "a triptych of photos of the artist wearing jackets of her own creation. the first jacket is orange and teal wool with a stag graphic appliqued onto the back panel. the second jacket is a woody green leather jacket with fur collar accent, snap epaulettes, and a front lapel detail created from colorful angular leather scraps. the third is a white denim jacket with a central linocut patch stitched in place with intricate topwork and embroidery. pink silk accents, flower details, and direct print work frame the central piece."
     },
     "name": "Brooke Osment",
@@ -17,7 +17,7 @@
   {
     "id": "rachel",
     "img": {
-      "src": "/img/2025-solstice/rachel.jpg",
+      "src": "/assets/img/2025-solstice/rachel.jpg",
       "alt": "a 3 picture collage. 2 pictures show the case and cards of a tarot deck created by Rachel. The third shows Rachel, a white person with turquoise hair, cat eye glasses, and contrasting striped jacket and dress, standing in front of paintings of shorelines."
     },
     "name": "Rachel Guinevere LordKenaga",
@@ -36,7 +36,7 @@
   {
     "id": "mags",
     "img": {
-      "src": "/img/2025-solstice/mags.jpg",
+      "src": "/assets/img/2025-solstice/mags.jpg",
       "alt": "a 3 picture collage. the first shows a miniature dress with white lace, pink bows and rosettes, and tiny maple leaves. the second shows mags, the artist, a white person with shaggy green hair, smiling slightly. third shows a natural-art sculpture with tiny mushroom figures added to real wood and lichen."
     },
     "name": "Mags (Mary) McGinnis",
@@ -51,7 +51,7 @@
   {
     "id": "hawke",
     "img": {
-      "src": "/img/2025-solstice/hawke.jpg",
+      "src": "/assets/img/2025-solstice/hawke.jpg",
       "alt": "4 image collage. image 1: Coulter pinecone with dried oranges, & apples, dried flowers, & bay leaves. image 2: a collage titled 'when the black rock opens'. artist statement on the piece: ntentional Collage: seeds have been planted in the line of the future. There is a promise of what will be growing when it is time for us to understand. image 3: Coulter pinecone with feathers, moon, snail shell, dried flowers, spices, bay leaves, and found sculpted porcelain face. image 4: jennifer hawke, the artist, a white person with a beard and knowing eyes. the top half of their face is painted blue with a white heart, and they are wearing a huge elaborate flower crown, a red shawl, and several chunky pendants."
     },
     "name": "Jennifer Hawke",
@@ -66,7 +66,7 @@
   {
     "id": "hope",
     "img": {
-      "src": "/img/2025-solstice/hope.jpg",
+      "src": "/assets/img/2025-solstice/hope.jpg",
       "alt": "3 picture collage of a white brunette woman. in picture one, she sits on a tall stool with her leg pulled up, holding paintbrushes. in picture 2 she stares at the camera with chanterelles held up to her ears. picture 3, she aims a camera at the camera."
     },
     "name": "Hope Black",
@@ -81,7 +81,7 @@
   {
     "id": "lee",
     "img": {
-      "src": "/img/2025-solstice/lee.jpg",
+      "src": "/assets/img/2025-solstice/lee.jpg",
       "alt": "a four picture collage. two pictures show lee, a white person with curly hair and glasses; in one picture, wearing a colorful knit shawl. the other two frames show lee's work: 1, two leather card wallets with an elegant swoop on the back in vivid colors of leather; 2, a pile of greeting cards with a block-printed loon spread across front and back of the cards."
     },
     "name": "Lee Cattarin",
@@ -96,7 +96,7 @@
   {
     "id": "jon",
     "img": {
-      "src": "/img/2025-solstice/jon.jpg",
+      "src": "/assets/img/2025-solstice/jon.jpg",
       "alt": "2 image collage showing a cast concrete votive candle holder with candle, and a bottle of a tincture made from foraged red belted conk and artist conk mushrooms."
     },
     "name": "Jon Haaland",
@@ -111,7 +111,7 @@
   {
     "id": "karen",
     "img": {
-      "src": "/img/2025-solstice/karen.jpg",
+      "src": "/assets/img/2025-solstice/karen.jpg",
       "alt": "4 photo collage. clockwise from top left: Karen, an older white woman, smiles at the camera while holding a steam press print of leaves; rows of fragrance-free goat milk soap; Karen sits in a greenhouse holding a squash and grins widely; bags of dark chocolate pecan toffee and crispy molasses crisps on a table."
     },
     "name": "Karen Biondo",

@@ -10,7 +10,8 @@
 
   --color-bg: light-dark(var(--color-light), var(--color-dark));
   --color-text: light-dark(var(--color-dark), var(--color-light));
-  --color-alt: light-dark(var(--color-light-alt), var(--color-dark-alt));
+  --color-bg-alt: light-dark(var(--color-light-alt), var(--color-dark-alt));
+  --color-text-alt: light-dark(var(--color-dark-alt), var(--color-light-alt));
   --color-accent: light-dark(var(--color-orange-dark), var(--color-orange-light));
   --color-accent-flipped: light-dark(var(--color-orange-light), var(--color-orange-dark));
 }
@@ -39,6 +40,18 @@ body {
   padding: 1rem 0 2rem;
 }
 
+@media (prefers-color-scheme: light) {
+  .dark-mode {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .light-mode {
+    display: none;
+  }
+}
+
 header,
 main {
   width: 65%;
@@ -62,6 +75,10 @@ main {
 img {
   display: block;
   max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text-alt);
 }
 
 h1 {
@@ -104,7 +121,7 @@ a:focus-visible {
 p,
 main ul {
   padding: .5rem;
-  background-color: var(--color-alt);
+  background-color: var(--color-bg-alt);
   border-radius: 0 0 1rem 1rem;
 }
 

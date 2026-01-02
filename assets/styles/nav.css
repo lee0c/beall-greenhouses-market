@@ -9,8 +9,6 @@ nav a {
   text-decoration: none;
   font-size: 1.2rem;
   padding: 0 .25rem;
-  border: solid thin var(--color-accent);
-  border-radius: .25rem;
 }
 
 @media (any-hover: hover) {
@@ -22,10 +20,22 @@ nav a {
 nav ul {
   display: flex;
   justify-content: flex-end;
+  gap: .5rem;
 }
 
 nav li {
   list-style: none;
+  border: solid thin var(--color-accent);
+  border-radius: .25rem;
+  outline-offset: .1rem;
+}
+
+nav li:focus-within {
+  outline: solid .25rem var(--color-accent);
+}
+
+nav li a:focus-visible {
+  outline: none; /* handled by above nav li rule */
 }
 
 /* this specifically handles the home button
@@ -42,18 +52,6 @@ header img {
   max-height: 25vh;
   max-width: 100%;
   margin: 0 auto;
-}
-
-@media (prefers-color-scheme: light) {
-  #logo-dark {
-    display: none;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  #logo-light {
-    display: none;
-  }
 }
 
 /* footer */

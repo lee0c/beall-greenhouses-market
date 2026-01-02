@@ -57,7 +57,7 @@
 
 .description {
   grid-area: desc;
-  background-color: var(--color-alt);
+  background-color: var(--color-bg-alt);
   border-radius: 0 0 1rem 1rem;
 }
 
