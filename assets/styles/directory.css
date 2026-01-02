@@ -1,4 +1,4 @@
-#events {
+#directory {
   display: grid;
   flex-flow: row wrap;
   grid-template-columns: repeat(2, 1fr);
@@ -6,12 +6,12 @@
 }
 
 @media (max-width: 850px) {
-  #events {
+  #directory {
     grid-template-columns: 1fr;
   }
 }
 
-#events li {
+#directory li {
   list-style: none;
   border: solid thin var(--color-accent);
   border-radius: .5rem;
@@ -19,35 +19,35 @@
 }
 
 @media (any-hover: hover) {
-  #events li:hover {
+  #directory li:hover {
     background-color: var(--color-text);
     border-color: var(--color-text);
   }
 
-  #events li:hover h2 {
+  #directory li:hover h2 {
     color: var(--color-bg);
   }
 }
 
-#events li:focus-within {
+#directory li:focus-within {
   outline: solid .25rem var(--color-accent);
 }
 
-#events a {
+#directory a {
   text-decoration: none;
   margin: 0;
 }
 
-#events a:focus-visible {
+#directory a:focus-visible {
   outline: none; /* outline handled by li:focus-within */
 }
 
-#events h2 {
+#directory h2 {
   text-align: center;
   margin-top: 1rem;
 }
 
-#events img {
+#directory img {
   margin: 0;
   border-radius: 0 0 .5rem .5rem;
 }
