@@ -71,7 +71,7 @@
 
 @media (max-width: 1050px) {
   .artist:nth-child(n) h3 {
-    padding: .5rem 0 0;
+    padding: 1rem 0 0;
   }
 
   .artist:nth-child(odd) .description {

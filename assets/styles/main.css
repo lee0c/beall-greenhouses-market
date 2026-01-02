@@ -120,7 +120,7 @@ a:focus-visible {
 
 p,
 main ul {
-  padding: .5rem;
+  padding: .8rem;
   background-color: var(--color-bg-alt);
   border-radius: 0 0 1rem 1rem;
 }
