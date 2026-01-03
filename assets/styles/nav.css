@@ -72,10 +72,6 @@ nav > #current-page {
   visibility: hidden;
 }
 
-nav > div > #current-page {
-  display: none;
-}
-
 header img {
   max-height: 25vh;
   max-width: 100%;
