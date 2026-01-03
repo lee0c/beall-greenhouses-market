@@ -86,7 +86,7 @@ header img {
 footer {
   width: 95%;
   margin: 0 auto;
-  padding: 0 0 1rem;
+  padding: 1rem 0;
 }
 
 footer p {
@@ -94,6 +94,7 @@ footer p {
   color: var(--color-bg);
   text-align: center;
   font-size: .9rem;
+  padding: .25rem;
 }
 
 footer a {
@@ -103,13 +104,4 @@ footer a {
 
 footer a:focus-visible {
   outline-color: var(--color-accent-flipped);
-}
-
-#contacts {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  column-gap: 3rem;
-  margin: 1rem 0 0;
 }

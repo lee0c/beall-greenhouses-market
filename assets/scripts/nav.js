@@ -57,13 +57,9 @@ populateNav();
 
 /* Footer */
 const footerHTML = `
-  <div id="contacts">
-    <p>questions?
-      <a href="mailto:beall.greenhouses@gmail.com">
-        email us!
-      </a>
-    </p>
-  </div>
+  <p>questions?
+    <a href="mailto:beall.greenhouses@gmail.com">email us!</a>
+  </p>
   <p>brought to you in 2026</p>
 `
 
