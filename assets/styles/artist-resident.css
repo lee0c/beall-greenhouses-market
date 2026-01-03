@@ -37,7 +37,7 @@
 @media (max-width: 1050px) {
   .resident img {
     border-radius: 1rem 1rem 0 0;
-    border-bottom: solid var(--color-accent);
+    border-bottom: .25rem solid var(--color-accent);
   }
 
   .resident .bio {

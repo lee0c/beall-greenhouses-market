@@ -41,9 +41,17 @@
   border-radius: 1rem;
 }
 
+@media (max-width: 1050px) {
+  .artist img {
+    border-radius: 1rem 1rem 0 0;
+    border-bottom: .25rem solid var(--color-accent);
+  }
+}
+
 .artist h3 {
   grid-area: h3;
   text-transform: uppercase;
+  line-height: 2rem;
 }
 
 .artist:nth-child(odd) h3 {
@@ -53,6 +61,12 @@
 .artist:nth-child(even) h3 {
   padding-right: .5rem;
   text-align: right;
+}
+
+@media (max-width: 1050px) {
+  .artist:nth-child(n) h3 {
+    padding: 0;
+  }
 }
 
 .description {
@@ -70,10 +84,6 @@
 }
 
 @media (max-width: 1050px) {
-  .artist:nth-child(n) h3 {
-    padding: 1rem 0 0;
-  }
-
   .artist:nth-child(odd) .description {
     margin-left: .625rem;
   }
