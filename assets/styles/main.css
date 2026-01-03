@@ -55,7 +55,7 @@ body {
 header,
 main {
   width: 65%;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
 }
 
 @media (max-width: 650px) {
@@ -118,15 +118,12 @@ a:focus-visible {
   outline: solid .25rem var(--color-accent);
 }
 
-p,
+main p,
 main ul {
   padding: .8rem;
   background-color: var(--color-bg-alt);
   border-radius: 0 0 1rem 1rem;
-}
-
-main li {
-  margin-left: 1rem;
+  line-height: 1.5rem;
 }
 
 main > p,
@@ -139,4 +136,8 @@ main > ul {
   main > ul {
     margin-left: 1.25rem;
   }
+}
+
+main li {
+  margin-left: 1rem;
 }
