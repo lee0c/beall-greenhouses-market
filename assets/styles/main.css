@@ -141,3 +141,7 @@ main > ul {
 main li {
   margin-left: 1rem;
 }
+
+main li:not(:last-child) {
+  padding: 0 0 .5rem;
+}
