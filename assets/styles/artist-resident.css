@@ -29,7 +29,7 @@
   border-radius: 1rem;
 }
 
-.resident .bio {
+.resident #bio {
   grid-area: desc;
   margin-left: 1.75rem;
 }
@@ -40,7 +40,7 @@
     border-bottom: .25rem solid var(--color-accent);
   }
 
-  .resident .bio {
+  .resident #bio {
     margin: 0;
   }
 }
