@@ -41,12 +41,17 @@ nav a:focus-visible {
 }
 
 #skip:focus-visible {
-	left: 3rem;
-  top: 1.5rem;
+	left: -6rem;
 	width: auto;
 	height: auto;
 	overflow: auto;
 	z-index: 999;
+}
+
+@media (max-width: 650px) {
+  #skip:focus-visible {
+    left: 6rem;
+  }
 }
 
 nav ul {
