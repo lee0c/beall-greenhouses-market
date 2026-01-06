@@ -18,6 +18,7 @@
   border-radius: .75rem;
   outline-offset: .25rem;
   margin: 0;
+  padding: 0;
 }
 
 @media (any-hover: hover) {
