@@ -1,19 +1,19 @@
 :root {
   color-scheme: light dark;
 
-  --color-light: #d5e9ff;
-  --color-light-alt: #beddff;
-  --color-dark: #001a33;
-  --color-dark-alt: #00274b;
-  --color-orange-light: #ff764f;
-  --color-orange-dark: #f55e33;
+  --color-light: #e5e0c7;
+  --color-light-alt: #d1cbab;
+  --color-dark: #142B15;
+  --color-dark-alt: #1a3b1b;
+  --color-accent-light: #4ba19e;
+  --color-accent-dark: #0c6a74;
 
   --color-bg: light-dark(var(--color-light), var(--color-dark));
   --color-text: light-dark(var(--color-dark), var(--color-light));
   --color-bg-alt: light-dark(var(--color-light-alt), var(--color-dark-alt));
   --color-text-alt: light-dark(var(--color-dark-alt), var(--color-light-alt));
-  --color-accent: light-dark(var(--color-orange-dark), var(--color-orange-light));
-  --color-accent-flipped: light-dark(var(--color-orange-light), var(--color-orange-dark));
+  --color-accent: light-dark(var(--color-accent-dark), var(--color-accent-light));
+  --color-accent-flipped: light-dark(var(--color-accent-light), var(--color-accent-dark));
 }
 
 * {

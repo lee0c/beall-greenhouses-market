@@ -20,8 +20,8 @@ nav a {
 @media (any-hover: hover) {
   nav a:hover {
     color: var(--color-bg);
-    background-color: var(--color-text);
-    border-color: var(--color-text);
+    background-color: var(--color-text-alt);
+    border-color: var(--color-accent-flipped);
   }
 }
 
@@ -37,7 +37,6 @@ nav a:focus-visible {
 	height: 1px;
 	overflow: hidden;
 	z-index: -99;
-  background-color: var(--color-bg);
 }
 
 #skip:focus-visible {
