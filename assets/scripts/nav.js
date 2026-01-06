@@ -25,22 +25,39 @@ const createMenuLink = function(title, href, tooltip) {
   a.innerHTML = title;
   a.title = tooltip;
   a.ariaLabel = tooltip;
-  if (path === href) a.id = "current-page";
+  if (href === "#main") a.id = "skip";
+  else if (href === path) a.id = "current-page";
 
   return a;
 }
 
-const createSkipLink = function() {
-  let a = createMenuLink("skip ↷", "#main", "skip to main content");
-  a.id = "skip";
+const createHomeLink = function() {
+  let path = window.location.pathname;
+
+  let a = document.createElement("a");
+  a.href = "/";
+  a.ariaLabel = "Beall Greenhouses home";
+  if (path === "/") {
+    a.id = "current-page";
+    a.title = "Beall Greenhouses home";
+  } else {
+    a.title = "↩ Beall Greenhouses home"
+  }
+
+  let logo = document.createElement("img");
+  logo.src = "/assets/img/logo.jpg";
+  logo.alt = "block print in black and orange of a rufous hummingbird in flight with tail flared. the hummingbird holds a banner that reads 'become ungovernable.'"
+
+  a.append(logo);
+
   return a;
 }
 
-const populateNav = function() {
-  let nav = document.getElementById("top-nav");
+const createNav = function() {
+  let nav = document.createElement("nav");
 
-  nav.append(createSkipLink());
-  nav.append(createMenuLink("↩ home", "/", "home page for the Beall Greenhouses"));
+  nav.append(createMenuLink("skip ↷", "#main", "skip to main content"));
+  nav.append(createHomeLink());
 
   let ul = document.createElement("ul");
 
@@ -51,9 +68,12 @@ const populateNav = function() {
   }
 
   nav.append(ul);
+
+  return nav;
 }
 
-populateNav();
+let header = document.querySelector("header");
+header.append(createNav());
 
 /* Footer */
 const footerHTML = `

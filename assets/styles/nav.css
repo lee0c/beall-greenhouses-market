@@ -7,7 +7,7 @@ nav {
   align-items: flex-start;
 }
 
-nav a {
+nav a:not(:has(img)) {
   display: inline-block;
   text-decoration: none;
   font-size: 1.2rem;
@@ -17,7 +17,7 @@ nav a {
 }
 
 @media (any-hover: hover) {
-  nav a:hover {
+  nav a:not(:has(img)):hover {
     color: var(--color-bg);
     background-color: var(--color-text-alt);
     border-color: var(--color-accent-flipped);
@@ -26,7 +26,7 @@ nav a {
   }
 }
 
-nav a:focus-visible {
+nav a:not(:has(img)):focus-visible {
   outline: solid .125rem var(--color-accent);
   outline-offset: .125rem;
 }
@@ -55,33 +55,42 @@ nav a:focus-visible {
   }
 }
 
+nav img {
+  max-height: 6.75rem;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 2rem;
+  border: .2rem solid var(--color-accent);
+}
+
+@media (any-hover: hover) {
+  nav img:hover {
+    border-color: var(--color-accent-flipped);
+    outline-offset: 0;
+    outline: .2rem solid var(--color-accent);
+  }
+}
+
+nav a:has(img):focus {
+  border-radius: 2rem;
+  outline-offset: .2rem;
+  outline: .2rem solid var(--color-accent);
+}
+
+nav a:has(img):focus img {
+  outline: none;
+}
+
 nav ul {
   display: flex;
   justify-content: flex-end;
-  gap: .5rem;
+  gap: .6rem;
   align-items: flex-end;
-}
-
-@media (max-width: 450px) {
-  nav ul {
-    flex-flow: column nowrap;
-  }
+  flex-flow: column nowrap;
 }
 
 nav li {
   list-style: none;
-}
-
-/* this specifically handles the home button
-we want it taking up flex container space */
-nav > #current-page {
-  visibility: hidden;
-}
-
-header img {
-  max-height: 25vh;
-  max-width: 100%;
-  margin: 0 auto;
 }
 
 /* footer */
