@@ -14,9 +14,9 @@
 
 #directory li {
   list-style: none;
-  border: solid thin var(--color-accent);
+  border: solid .25rem var(--color-accent);
   border-radius: .5rem;
-  outline-offset: .1rem;
+  outline-offset: .25rem;
   margin: 0;
 }
 

@@ -12,9 +12,9 @@ nav a {
   text-decoration: none;
   font-size: 1.2rem;
   padding: 0 .25rem;
-  border: solid thin var(--color-accent);
+  border: solid .125rem var(--color-accent);
   border-radius: .25rem;
-  outline-offset: .1rem;
+  outline-offset: .125rem;
 }
 
 @media (any-hover: hover) {
@@ -26,7 +26,7 @@ nav a {
 }
 
 nav a:focus-visible {
-  outline: solid .25rem var(--color-accent);
+  outline: solid .125rem var(--color-accent);
 }
 
 #skip {
