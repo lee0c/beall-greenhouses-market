@@ -1,19 +1,19 @@
 :root {
   color-scheme: light dark;
 
-  --color-light: #e5e0c7;
-  --color-light-alt: #d1cbab;
-  --color-dark: #142B15;
-  --color-dark-alt: #1a3b1b;
-  --color-accent-light: #4ba19e;
-  --color-accent-dark: #0c6a74;
+  --color-concrete: #e5e0c7;
+  --color-concrete-alt: #d1cbab;
+  --color-green: #142b15;
+  --color-green-alt: #1a3b1b;
+  --color-teal-light: #4ba19e;
+  --color-teal-dark: #0c6a74;
 
-  --color-bg: light-dark(var(--color-light), var(--color-dark));
-  --color-text: light-dark(var(--color-dark), var(--color-light));
-  --color-bg-alt: light-dark(var(--color-light-alt), var(--color-dark-alt));
-  --color-text-alt: light-dark(var(--color-dark-alt), var(--color-light-alt));
-  --color-accent: light-dark(var(--color-accent-dark), var(--color-accent-light));
-  --color-accent-flipped: light-dark(var(--color-accent-light), var(--color-accent-dark));
+  --color-bg: light-dark(var(--color-concrete), var(--color-green));
+  --color-text: light-dark(var(--color-green), var(--color-concrete));
+  --color-bg-alt: light-dark(var(--color-concrete-alt), var(--color-green-alt));
+  --color-text-alt: light-dark(var(--color-green-alt), var(--color-concrete-alt));
+  --color-accent: light-dark(var(--color-teal-dark), var(--color-teal-light));
+  --color-accent-flipped: light-dark(var(--color-teal-light), var(--color-teal-dark));
 }
 
 * {
