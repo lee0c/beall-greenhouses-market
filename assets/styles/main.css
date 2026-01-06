@@ -61,7 +61,7 @@ main {
 @media (max-width: 650px) {
   header,
   main {
-    width: 95%;
+    width: 92%;
   }
 }
 
