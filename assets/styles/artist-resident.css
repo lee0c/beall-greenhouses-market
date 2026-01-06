@@ -1,7 +1,7 @@
 .resident {
   margin: 2rem auto;
   display: grid;
-  grid-template: 
+  grid-template:
     'img h1'
     'img desc'
     'img .';
@@ -10,11 +10,11 @@
 
 @media (max-width: 1050px) {
   .resident {
-    grid-template: 
+    grid-template:
       'img'
       'h1'
       'desc';
-  } 
+  }
 }
 
 .resident h1 {
