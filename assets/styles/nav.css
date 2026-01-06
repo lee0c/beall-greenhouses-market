@@ -14,7 +14,6 @@ nav a {
   padding: 0 .25rem;
   border: solid .125rem var(--color-accent);
   border-radius: .25rem;
-  outline-offset: .125rem;
 }
 
 @media (any-hover: hover) {
@@ -22,11 +21,14 @@ nav a {
     color: var(--color-bg);
     background-color: var(--color-text-alt);
     border-color: var(--color-accent-flipped);
+    outline: .125rem solid var(--color-accent);
+    outline-offset: 0;
   }
 }
 
 nav a:focus-visible {
   outline: solid .125rem var(--color-accent);
+  outline-offset: .125rem;
 }
 
 #skip {
