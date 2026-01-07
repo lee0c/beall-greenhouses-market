@@ -128,21 +128,7 @@ a:focus-visible {
 main p,
 main ul {
   padding: .8rem;
-  background-color: var(--color-bg-alt);
-  border-radius: 0 0 1rem 1rem;
   line-height: 1.5rem;
-}
-
-main > p,
-main > ul {
-  margin-left: 2.5rem;
-}
-
-@media (max-width: 750px) {
-  main > p,
-  main > ul {
-    margin-left: 1.25rem;
-  }
 }
 
 main li {
@@ -151,4 +137,25 @@ main li {
 
 main li:not(:last-child) {
   padding: 0 0 .5rem;
+}
+
+/* styles for sets of <p>s under an h2/3/etc vs alone */
+.under-header,
+.no-header {
+  background-color: var(--color-bg-alt);
+}
+
+.under-header {
+  border-radius: 0 0 1rem 1rem;
+  margin-left: 2.5rem;
+}
+
+@media (max-width: 750px) {
+  .under-header {
+    margin-left: 1.25rem;
+  }
+}
+
+.no-header {
+  border-radius: 1rem;
 }

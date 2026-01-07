@@ -45,6 +45,12 @@
   }
 }
 
+.resident #bio,
+.contact ul {
+  background-color: var(--color-bg-alt);
+  border-radius: 0 0 1rem 1rem;
+}
+
 .contact {
   margin-top: 4rem;
   text-align: center;
