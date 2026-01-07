@@ -39,6 +39,13 @@ nav a:not(:has(img)):focus-visible {
 	height: 1px;
 	overflow: hidden;
 	z-index: -99;
+  background-color: var(--color-bg);
+}
+
+@media (any-hover: hover) {
+  #skip:hover {
+    background-color: var(--color-text-alt);
+  }
 }
 
 #skip:focus-visible {
@@ -51,7 +58,7 @@ nav a:not(:has(img)):focus-visible {
 
 @media (max-width: 650px) {
   #skip:focus-visible {
-    left: 6rem;
+    left: 5rem;
   }
 }
 
