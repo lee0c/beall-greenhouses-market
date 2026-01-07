@@ -2,34 +2,9 @@
 nav {
   position: relative;
   margin: 0 auto 1.5rem;
-}
-
-nav div {
-  display: grid;
-  grid-template:
-    "home title links";
-  row-gap: 1rem;
-}
-
-@media (max-width: 650px) {
-  nav div {
-    grid-template:
-      "title title"
-      "home links";
-  }
-}
-
-#home {
-  grid-area: home;
-  justify-self: start;
-}
-
-nav h2 {
-  grid-area: title;
-  border: none;
-  text-align: center;
-  align-self: center;
-  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 nav a:not(:has(img)) {
@@ -81,7 +56,7 @@ nav a:not(:has(img)):focus-visible {
 	z-index: 999;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 650px) {
   #skip:focus-visible {
     left: 5rem;
   }
@@ -114,8 +89,6 @@ nav a:has(img):focus img {
 }
 
 nav ul {
-  grid-area: links;
-  justify-self: end;
   display: flex;
   justify-content: flex-end;
   gap: .6rem;

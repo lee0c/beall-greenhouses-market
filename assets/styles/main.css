@@ -58,7 +58,7 @@ main {
   margin: 0 auto 1rem;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 650px) {
   header,
   main {
     width: 92%;
