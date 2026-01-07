@@ -4,7 +4,14 @@ const makeArtistImg = function(artistImg) {
 
   let img = document.createElement("img");
   img.src = artistImg.src;
-  img.alt = artistImg.alt;
+
+  if (typeof artistImg.alt === "string") img.alt = artistImg.alt;
+  else {
+    let fullAlt = `a ${artistImg.alt.length} image collage.`
+    for (let i = 0; i < artistImg.alt.length; i++)
+      fullAlt += ` ${i}: ${artistImg.alt[i]}`
+    img.alt = fullAlt;
+  }
 
   imgDiv.append(img);
   return imgDiv;
