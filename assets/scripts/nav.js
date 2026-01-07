@@ -61,11 +61,12 @@ const createNav = function() {
   nav.append(createMenuLink("skip ↷", "#main", "skip to main content"));
 
   let div = document.createElement("div");
-  div.append(createHomeLink());
 
   let h2 = document.createElement("h2");
   h2.innerHTML = "Beall Greenhouses";
   div.append(h2);
+
+  div.append(createHomeLink());
 
   let ul = document.createElement("ul");
 
