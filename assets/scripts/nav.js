@@ -37,6 +37,8 @@ const createHomeLink = function() {
   let a = document.createElement("a");
   a.href = "/";
   a.ariaLabel = "Beall Greenhouses home";
+  a.id = "home";
+
   if (path === "/") {
     a.id = "current-page";
     a.title = "Beall Greenhouses home";
@@ -57,7 +59,13 @@ const createNav = function() {
   let nav = document.createElement("nav");
 
   nav.append(createMenuLink("skip ↷", "#main", "skip to main content"));
-  nav.append(createHomeLink());
+
+  let div = document.createElement("div");
+  div.append(createHomeLink());
+
+  let h2 = document.createElement("h2");
+  h2.innerHTML = "Beall Greenhouses";
+  div.append(h2);
 
   let ul = document.createElement("ul");
 
@@ -67,7 +75,8 @@ const createNav = function() {
     ul.append(li);
   }
 
-  nav.append(ul);
+  div.append(ul);
+  nav.append(div);
 
   return nav;
 }
