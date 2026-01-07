@@ -1,99 +1,99 @@
 .artist {
-  width: 100%;
-  margin: 2rem 0;
-  display: grid;
-  scroll-margin-top: 1rem;
+	width: 100%;
+	margin: 2rem 0;
+	display: grid;
+	scroll-margin-top: 1rem;
 }
 
 .artist:nth-child(odd) {
-  grid-template:
-    'imgs h3'
-    'imgs desc'
-    'imgs .';
-  grid-template-columns: 45% auto;
+	grid-template:
+		'imgs h3'
+		'imgs desc'
+		'imgs .';
+	grid-template-columns: 45% auto;
 }
 
 .artist:nth-child(even) {
-  grid-template:
-    'h3 imgs'
-    'desc imgs'
-    '. imgs';
-  grid-template-columns: auto 45%;
+	grid-template:
+		'h3 imgs'
+		'desc imgs'
+		'. imgs';
+	grid-template-columns: auto 45%;
 }
 
 @media (max-width: 1050px) {
-  .artist:nth-child(n) {
-    grid-template:
-      'imgs'
-      'h3'
-      'desc';
-  }
+	.artist:nth-child(n) {
+		grid-template:
+			'imgs'
+			'h3'
+			'desc';
+	}
 }
 
 .fit-contain {
-  object-fit: contain;
-  grid-area: imgs;
+	object-fit: contain;
+	grid-area: imgs;
 }
 
 .artist img {
-  max-height: 100%;
-  max-width: 100%;
-  border-radius: 1rem;
+	max-height: 100%;
+	max-width: 100%;
+	border-radius: 1rem;
 }
 
 @media (max-width: 1050px) {
-  .artist img {
-    border-radius: 1rem 1rem 0 0;
-    border-bottom: .25rem solid var(--color-accent);
-  }
+	.artist img {
+		border-radius: 1rem 1rem 0 0;
+		border-bottom: .25rem solid var(--color-accent);
+	}
 }
 
 .artist h3 {
-  grid-area: h3;
-  text-transform: uppercase;
-  line-height: 2rem;
+	grid-area: h3;
+	text-transform: uppercase;
+	line-height: 2rem;
 }
 
 .artist:nth-child(odd) h3 {
-  padding-left: .5rem;
+	padding-left: .5rem;
 }
 
 .artist:nth-child(even) h3 {
-  padding-right: .5rem;
-  text-align: right;
+	padding-right: .5rem;
+	text-align: right;
 }
 
 @media (max-width: 1050px) {
-  .artist:nth-child(n) h3 {
-    padding: 0;
-  }
+	.artist:nth-child(n) h3 {
+		padding: 0;
+	}
 }
 
 .description {
-  grid-area: desc;
-  background-color: var(--color-bg-alt);
-  border-radius: 0 0 1rem 1rem;
+	grid-area: desc;
+	background-color: var(--color-bg-alt);
+	border-radius: 0 0 1rem 1rem;
 }
 
 .artist:nth-child(odd) .description {
-  margin-left: 1.75rem;
+	margin-left: 1.75rem;
 }
 
 .artist:nth-child(even) .description {
-  margin-right: 1.75rem;
+	margin-right: 1.75rem;
 }
 
 @media (max-width: 750px) {
-  .artist:nth-child(odd) .description {
-    margin-left: .875rem;
-  }
+	.artist:nth-child(odd) .description {
+		margin-left: .875rem;
+	}
 
-  .artist:nth-child(even) .description {
-    margin-right: .875rem;
-  }
+	.artist:nth-child(even) .description {
+		margin-right: .875rem;
+	}
 }
 
 .description p:last-child {
-  text-align: center;
-  padding-bottom: 1rem;
+	text-align: center;
+	padding-bottom: 1rem;
 }

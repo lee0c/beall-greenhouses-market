@@ -1,61 +1,61 @@
 #directory {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
-  margin: 0 .5rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 3rem;
+	margin: 0 .5rem;
 }
 
 @media (max-width: 1050px) {
-  #directory {
-    grid-template-columns: 1fr;
-  }
+	#directory {
+		grid-template-columns: 1fr;
+	}
 }
 
 ul#directory,
 ol#directory {
-  background-color: var(--color-bg);
-  padding: 0;
+	background-color: var(--color-bg);
+	padding: 0;
 }
 
 #directory li {
-  list-style: none;
-  border: solid .25rem var(--color-accent);
-  border-radius: .75rem;
-  outline-offset: .25rem;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	border: solid .25rem var(--color-accent);
+	border-radius: .75rem;
+	outline-offset: .25rem;
+	margin: 0;
+	padding: 0;
 }
 
 @media (any-hover: hover) {
-  #directory li:hover {
-    background-color: var(--color-text);
-  }
+	#directory li:hover {
+		background-color: var(--color-text);
+	}
 
-  #directory li:hover h2 {
-    color: var(--color-bg);
-    border-color: var(--color-accent-flipped);
-  }
+	#directory li:hover h2 {
+		color: var(--color-bg);
+		border-color: var(--color-accent-flipped);
+	}
 }
 
 #directory li:focus-within {
-  outline: solid .25rem var(--color-accent);
+	outline: solid .25rem var(--color-accent);
 }
 
 #directory a {
-  text-decoration: none;
-  margin: 0;
+	text-decoration: none;
+	margin: 0;
 }
 
 #directory a:focus-visible {
-  outline: none; /* outline handled by li:focus-within */
+	outline: none; /* outline handled by li:focus-within */
 }
 
 #directory h2 {
-  text-align: center;
-  margin-top: 1rem;
+	text-align: center;
+	margin-top: 1rem;
 }
 
 #directory img {
-  margin: 0;
-  border-radius: 0 0 .5rem .5rem;
+	margin: 0;
+	border-radius: 0 0 .5rem .5rem;
 }

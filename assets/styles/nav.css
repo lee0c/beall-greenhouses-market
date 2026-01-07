@@ -1,43 +1,43 @@
 /* top nav */
 nav {
-  position: relative;
-  margin: 0 auto 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  background-image: url("/assets/img/greenhouse.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 2rem .25rem .25rem 2rem;
+	position: relative;
+	margin: 0 auto 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	background-image: url("/assets/img/greenhouse.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 2rem .25rem .25rem 2rem;
 }
 
 nav a {
-  margin: 0;
+	margin: 0;
 }
 
 nav a:not(:has(img)) {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 1.2rem;
-  padding: 0 .25rem;
-  border: solid .125rem var(--color-accent);
-  border-radius: .25rem;
-  background-color: var(--color-bg);
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.2rem;
+	padding: 0 .25rem;
+	border: solid .125rem var(--color-accent);
+	border-radius: .25rem;
+	background-color: var(--color-bg);
 }
 
 @media (any-hover: hover) {
-  nav a:not(:has(img)):hover {
-    color: var(--color-bg);
-    background-color: var(--color-text-alt);
-    border-color: var(--color-accent-flipped);
-    outline: .125rem solid var(--color-accent);
-    outline-offset: 0;
-  }
+	nav a:not(:has(img)):hover {
+		color: var(--color-bg);
+		background-color: var(--color-text-alt);
+		border-color: var(--color-accent-flipped);
+		outline: .125rem solid var(--color-accent);
+		outline-offset: 0;
+	}
 }
 
 nav a:not(:has(img)):focus-visible {
-  outline: solid .125rem var(--color-accent);
-  outline-offset: .125rem;
+	outline: solid .125rem var(--color-accent);
+	outline-offset: .125rem;
 }
 
 #skip {
@@ -59,69 +59,69 @@ nav a:not(:has(img)):focus-visible {
 }
 
 @media (max-width: 750px) {
-  #skip:focus-visible {
-    left: 5rem;
-  }
+	#skip:focus-visible {
+		left: 5rem;
+	}
 }
 
 nav img {
-  max-height: 6.75rem;
-  max-width: 100%;
-  margin: 0 auto;
-  border-radius: 2rem;
-  border: .2rem solid var(--color-accent);
+	max-height: 6.75rem;
+	max-width: 100%;
+	margin: 0 auto;
+	border-radius: 2rem;
+	border: .2rem solid var(--color-accent);
 }
 
 @media (any-hover: hover) {
-  nav img:hover {
-    border-color: var(--color-accent-flipped);
-    outline-offset: 0;
-    outline: .2rem solid var(--color-accent);
-  }
+	nav img:hover {
+		border-color: var(--color-accent-flipped);
+		outline-offset: 0;
+		outline: .2rem solid var(--color-accent);
+	}
 }
 
 nav a:has(img):focus {
-  border-radius: 2rem;
-  outline-offset: .2rem;
-  outline: .2rem solid var(--color-accent);
+	border-radius: 2rem;
+	outline-offset: .2rem;
+	outline: .2rem solid var(--color-accent);
 }
 
 nav a:has(img):focus img {
-  outline: none;
+	outline: none;
 }
 
 nav ul {
-  display: flex;
-  justify-content: flex-end;
-  gap: .6rem;
-  align-items: flex-end;
-  flex-flow: column nowrap;
+	display: flex;
+	justify-content: flex-end;
+	gap: .6rem;
+	align-items: flex-end;
+	flex-flow: column nowrap;
 }
 
 nav li {
-  list-style: none;
+	list-style: none;
 }
 
 /* footer */
 footer {
-  width: 95%;
-  margin: 0 auto;
-  padding: 1rem 0;
+	width: 95%;
+	margin: 0 auto;
+	padding: 1rem 0;
 }
 
 footer p {
-  background-color: var(--color-text);
-  color: var(--color-bg);
-  text-align: center;
-  font-size: .9rem;
-  padding: .25rem;
+	background-color: var(--color-text);
+	color: var(--color-bg);
+	text-align: center;
+	font-size: .9rem;
+	padding: .25rem;
 }
 
 footer a {
-  color: var(--color-bg);
-  text-decoration-color: var(--color-accent-flipped);
+	color: var(--color-bg);
+	text-decoration-color: var(--color-accent-flipped);
 }
 
 footer a:focus-visible {
-  outline-color: var(--color-accent-flipped);
+	outline-color: var(--color-accent-flipped);
 }

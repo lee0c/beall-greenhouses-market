@@ -1,70 +1,70 @@
 [
-  {
-    "id": "hawke",
-    "img": {
-      "src": "/assets/img/2026-imbolc/hawke.jpg",
-      "alt": [
-        "A green feather emerging from cracked earth, curled in a spiral",
-        "Two crane figures with their beaks meeting in the middle where a large circle is suspended in the air. The sky behind it is stormy and full of clouds. The hill they are standing on has a large crack running down the center, with ancient carved stone animal heads around the crack.",
-        "A vintage map of the Bremerton area. Super imposed throughout the map is a sacred geometry pattern called the Flower of Life. A red Octopus is emerging from the pattern.",
-        "A bear curled up in a ball with its paw over its eyes. The ground is covered in snow and there are bird tracks in between stones poking out. In the sky above, there is a comet amongst the stars.",
-        "A vintage map of the Bremerton area. Super imposed throughout the map is a sacred geometry pattern called the Flower of Life. A Dungeness crab is emerging from the pattern."
-      ]
-    },
-    "name": "Jennifer Hawke",
-    "bio": [
-      "Jennifer Hawke came to Vashon Island about 20 years ago from Billings, Montana.",
-      "Hawke has a studio at the Beall Greenhouses, and has participated in the Vashon Studio Tour for the last four seasons. They also paint large Sacred Geometry installations on the road during the First Friday Art Walks in the summer months.",
-      "Hawke has a degree in Painting and Cast Metals from Montana State University, but they work in many different mediums. Their primary studio work is assemblage using vintage detritus and beach trash.",
-      "You may also know Hawke through the Bearded Lady Road Reports: a live broadcast on Facebook dedicated to reporting on road conditions during inclement weather."
-    ],
-    "contact": [
-      {
-        "href": "https://www.instagram.com/jenniferhawkestudio",
-        "title": "@jenniferhawkestudio on instagram"
-      },
-      {
-        "href": "https://www.facebook.com/pugetsoundgypsy",
-        "title": "Jennifer Hawke on facebook"
-      },
-      {
-        "href": "https://www.instagram.com/montana_hawke",
-        "title": "@montana_hawke on instagram"
-      }
-    ]
-  },
-  {
-    "id": "lee",
-    "img": {
-      "src": "/assets/img/2026-imbolc/lee.jpg",
-      "alt": "a four picture collage. two pictures show lee, a white person with curly hair and glasses; in one picture, wearing a colorful knit shawl. the other two frames show lee's work: 1, two leather card wallets with an elegant swoop on the back in vivid colors of leather; 2, a pile of greeting cards with a block-printed loon spread across front and back of the cards."
-    },
-    "name": "Lee Cattarin",
-    "bio": [
-      "multidisciplinary artist and birder"
-    ],
-    "contact": [
-      {
-        "href": "https://leecat.art/",
-        "title": "leecat.art"
-      }
-    ]
-  },
-  {
-    "id": "brooke",
-    "img": {
-      "src": "/assets/img/2026-imbolc/brooke.jpg",
-      "alt": "a triptych of photos of the artist wearing jackets of her own creation. the first jacket is orange and teal wool with a stag graphic appliqued onto the back panel. the second jacket is a woody green leather jacket with fur collar accent, snap epaulettes, and a front lapel detail created from colorful angular leather scraps. the third is a white denim jacket with a central linocut patch stitched in place with intricate topwork and embroidery. pink silk accents, flower details, and direct print work frame the central piece."
-    },
-    "name": "Brooke Osment",
-    "bio": [
-      "found art jackets, stitchwork, visible mending"
-    ],
-    "contact": [
-      {
-        "href": "mailto:bsosment@gmail.com?subject=Beall%20Greenhouses%20Market%20Imbolc%202026",
-        "title": "email Brooke"
-      }
-    ]
-  }
+	{
+		"id": "hawke",
+		"img": {
+			"src": "/assets/img/2026-imbolc/hawke.jpg",
+			"alt": [
+				"A green feather emerging from cracked earth, curled in a spiral",
+				"Two crane figures with their beaks meeting in the middle where a large circle is suspended in the air. The sky behind it is stormy and full of clouds. The hill they are standing on has a large crack running down the center, with ancient carved stone animal heads around the crack.",
+				"A vintage map of the Bremerton area. Super imposed throughout the map is a sacred geometry pattern called the Flower of Life. A red Octopus is emerging from the pattern.",
+				"A bear curled up in a ball with its paw over its eyes. The ground is covered in snow and there are bird tracks in between stones poking out. In the sky above, there is a comet amongst the stars.",
+				"A vintage map of the Bremerton area. Super imposed throughout the map is a sacred geometry pattern called the Flower of Life. A Dungeness crab is emerging from the pattern."
+			]
+		},
+		"name": "Jennifer Hawke",
+		"bio": [
+			"Jennifer Hawke came to Vashon Island about 20 years ago from Billings, Montana.",
+			"Hawke has a studio at the Beall Greenhouses, and has participated in the Vashon Studio Tour for the last four seasons. They also paint large Sacred Geometry installations on the road during the First Friday Art Walks in the summer months.",
+			"Hawke has a degree in Painting and Cast Metals from Montana State University, but they work in many different mediums. Their primary studio work is assemblage using vintage detritus and beach trash.",
+			"You may also know Hawke through the Bearded Lady Road Reports: a live broadcast on Facebook dedicated to reporting on road conditions during inclement weather."
+		],
+		"contact": [
+			{
+				"href": "https://www.instagram.com/jenniferhawkestudio",
+				"title": "@jenniferhawkestudio on instagram"
+			},
+			{
+				"href": "https://www.facebook.com/pugetsoundgypsy",
+				"title": "Jennifer Hawke on facebook"
+			},
+			{
+				"href": "https://www.instagram.com/montana_hawke",
+				"title": "@montana_hawke on instagram"
+			}
+		]
+	},
+	{
+		"id": "lee",
+		"img": {
+			"src": "/assets/img/2026-imbolc/lee.jpg",
+			"alt": "a four picture collage. two pictures show lee, a white person with curly hair and glasses; in one picture, wearing a colorful knit shawl. the other two frames show lee's work: 1, two leather card wallets with an elegant swoop on the back in vivid colors of leather; 2, a pile of greeting cards with a block-printed loon spread across front and back of the cards."
+		},
+		"name": "Lee Cattarin",
+		"bio": [
+			"multidisciplinary artist and birder"
+		],
+		"contact": [
+			{
+				"href": "https://leecat.art/",
+				"title": "leecat.art"
+			}
+		]
+	},
+	{
+		"id": "brooke",
+		"img": {
+			"src": "/assets/img/2026-imbolc/brooke.jpg",
+			"alt": "a triptych of photos of the artist wearing jackets of her own creation. the first jacket is orange and teal wool with a stag graphic appliqued onto the back panel. the second jacket is a woody green leather jacket with fur collar accent, snap epaulettes, and a front lapel detail created from colorful angular leather scraps. the third is a white denim jacket with a central linocut patch stitched in place with intricate topwork and embroidery. pink silk accents, flower details, and direct print work frame the central piece."
+		},
+		"name": "Brooke Osment",
+		"bio": [
+			"found art jackets, stitchwork, visible mending"
+		],
+		"contact": [
+			{
+				"href": "mailto:bsosment@gmail.com?subject=Beall%20Greenhouses%20Market%20Imbolc%202026",
+				"title": "email Brooke"
+			}
+		]
+	}
 ]
