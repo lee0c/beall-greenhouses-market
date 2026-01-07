@@ -5,6 +5,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  background-image: url("/assets/img/greenhouse.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem .25rem .25rem 2rem;
 }
 
 nav a {
