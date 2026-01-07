@@ -7,6 +7,10 @@ nav {
   align-items: flex-start;
 }
 
+nav a {
+  margin: 0;
+}
+
 nav a:not(:has(img)) {
   display: inline-block;
   text-decoration: none;
@@ -14,6 +18,7 @@ nav a:not(:has(img)) {
   padding: 0 .25rem;
   border: solid .125rem var(--color-accent);
   border-radius: .25rem;
+  background-color: var(--color-bg);
 }
 
 @media (any-hover: hover) {
@@ -39,13 +44,6 @@ nav a:not(:has(img)):focus-visible {
 	height: 1px;
 	overflow: hidden;
 	z-index: -99;
-  background-color: var(--color-bg);
-}
-
-@media (any-hover: hover) {
-  #skip:hover {
-    background-color: var(--color-text-alt);
-  }
 }
 
 #skip:focus-visible {
