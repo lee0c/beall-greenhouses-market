@@ -55,6 +55,7 @@ const createHomeLink = function() {
 
 const createNav = function() {
   let nav = document.createElement("nav");
+  nav.title = "background image shows the peak of a dilapidated greenhouse in black and white";
 
   nav.append(createMenuLink("skip ↷", "#main", "skip to main content"));
   nav.append(createHomeLink());
