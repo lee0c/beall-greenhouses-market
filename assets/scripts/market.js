@@ -5,6 +5,7 @@ const makeArtistImg = function(artistImg) {
   let img = document.createElement("img");
   img.src = artistImg.src;
 
+  /* handle single-line or multi-line alts */
   if (typeof artistImg.alt === "string") img.alt = artistImg.alt;
   else {
     let fullAlt = `a ${artistImg.alt.length} image collage.`
@@ -21,12 +22,14 @@ const makeArtistDesc = function(bio, contact) {
   let descDiv = document.createElement("div");
   descDiv.classList.add("description");
 
+  /* multi-line bio array */
   for (const bioLine of bio) {
     let p = document.createElement("p");
     p.innerHTML = bioLine;
     descDiv.append(p);
   }
 
+  /* artist contact info */
   let contacts = document.createElement("p");
   for (let i = 0; i < contact.length; i++) {
     let a = document.createElement("a");
