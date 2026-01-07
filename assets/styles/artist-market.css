@@ -83,7 +83,7 @@
   margin-right: 1.75rem;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   .artist:nth-child(odd) .description {
     margin-left: .875rem;
   }

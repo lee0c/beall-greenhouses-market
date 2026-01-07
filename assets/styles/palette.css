@@ -7,7 +7,7 @@
 	font-weight: bold;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 550px) {
 	.color p {
 		width: 100%;
 	}
