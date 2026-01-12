@@ -66,5 +66,30 @@
 				"title": "email Brooke"
 			}
 		]
+	},
+	{
+		"id": "gary",
+		"img": {
+			"src": "/assets/img/2026-imbolc/gary.jpg",
+			"alt": "Bag of ZenBellies coffee on the counter in front of a coffee station."
+		},
+		"name": "Gary",
+		"bio": [
+			"I will be serving up delicious pour-overs of my hand-picked locally roasted coffee, honoring the rich flavor tradition of the Pacific Northwest."
+		],
+		"contact": [
+			{
+				"href": "https://www.zenbelliescoffeeco.com",
+				"title": "zenbelliescoffeeco.com"
+			},
+			{
+				"href": "mailto:gary@zenbellies.com?subject=Beall%20Greenhouses%20Market%20Imbolc%202026",
+				"title": "email Gary"
+			},
+			{
+				"href": "https://www.instagram.com/zenbelliescoffeeco",
+				"title": "zenbelliescoffeeco on instagram"
+			}
+		]
 	}
 ]
