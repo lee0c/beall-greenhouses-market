@@ -34,23 +34,6 @@
 		]
 	},
 	{
-		"id": "lee",
-		"img": {
-			"src": "/assets/img/2026-imbolc/lee.jpg",
-			"alt": "a four picture collage. two pictures show lee, a white person with curly hair and glasses; in one picture, wearing a colorful knit shawl. the other two frames show lee's work: 1, two leather card wallets with an elegant swoop on the back in vivid colors of leather; 2, a pile of greeting cards with a block-printed loon spread across front and back of the cards."
-		},
-		"name": "Lee Cattarin",
-		"bio": [
-			"multidisciplinary artist and birder"
-		],
-		"contact": [
-			{
-				"href": "https://leecat.art/",
-				"title": "leecat.art"
-			}
-		]
-	},
-	{
 		"id": "brooke",
 		"img": {
 			"src": "/assets/img/2026-imbolc/brooke.jpg",
@@ -64,6 +47,23 @@
 			{
 				"href": "mailto:bsosment@gmail.com?subject=Beall%20Greenhouses%20Market%20Imbolc%202026",
 				"title": "email Brooke"
+			}
+		]
+	},
+	{
+		"id": "lee",
+		"img": {
+			"src": "/assets/img/2026-imbolc/lee.jpg",
+			"alt": "a four picture collage. two pictures show lee, a white person with curly hair and glasses; in one picture, wearing a colorful knit shawl. the other two frames show lee's work: 1, two leather card wallets with an elegant swoop on the back in vivid colors of leather; 2, a pile of greeting cards with a block-printed loon spread across front and back of the cards."
+		},
+		"name": "Lee Cattarin",
+		"bio": [
+			"multidisciplinary artist and birder"
+		],
+		"contact": [
+			{
+				"href": "https://leecat.art/",
+				"title": "leecat.art"
 			}
 		]
 	},
