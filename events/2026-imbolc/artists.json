@@ -91,5 +91,38 @@
 				"title": "zenbelliescoffeeco on instagram"
 			}
 		]
+	},
+	{
+		"id": "christina",
+		"img": {
+			"src": "/assets/img/2026-imbolc/christina.jpg",
+			"alt": [
+				"“Paradise Dreams” Egret by the ocean under a tree. Collagraph",
+				"“Chachalaca Morning” Chachalaca bird sitting on a tree branch.  Collagraph",
+				"“Winter’s Flock” Bare trees in a field with crows flying. Collagraph",
+				"“The Meeting” A crow and doves are having a meeting at an old oak tree. Etching",
+				"“Misty Mourning” Bare trees with morning sun and autumn leaves on the ground. Monotype"
+			]
+		},
+		"name": "Christina Nichols",
+		"bio": [
+			"I have been a professional artist for 40 years, living on Vashon Island in the Pacific Northwest.",
+			"My work is mostly inspired by nature. I also like to mix modern and ancient sources in an attempt to elicit images of the collective unconscious.",
+			"I currently like to use many hand-pulled printing processes, for example—etchings, collagraphs, monoprints and linoleum block prints. I have been a member of Quartermaster Press at Beall Greenhouses since 2011."
+		],
+		"contact": [
+			{
+				"href": "mailto:christinanicholsart@yahoo.com?subject=Beall%20Greenhouses%20Market%20Imbolc%202026",
+				"title": "email Christina"
+			},
+			{
+				"href": "https://www.facebook.com/christina.nichols.9849",
+				"title": "Christina Nichols on facebook"
+			},
+			{
+				"href": "https://www.instagram.com/christinanicholsart/",
+				"title": "@christinanicholsart on instagram"
+			}
+		]
 	}
 ]
