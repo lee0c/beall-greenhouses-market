@@ -10,7 +10,7 @@ const makeArtistImg = function(artistImg) {
 	else {
 		let fullAlt = `a ${artistImg.alt.length} image collage.`
 		for (let i = 0; i < artistImg.alt.length; i++)
-			fullAlt += ` ${i}: ${artistImg.alt[i]}`
+			fullAlt += ` ${i + 1}: ${artistImg.alt[i]}`
 		img.alt = fullAlt;
 	}
 
