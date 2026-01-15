@@ -124,5 +124,55 @@
 				"title": "@christinanicholsart on instagram"
 			}
 		]
+	},
+	{
+		"id": "rachael",
+		"img": {
+			"src": "/assets/img/2026-imbolc/rachael.jpg",
+			"alt": [
+				"Photogravure print of a sunflower with watercolor",
+				"Linocut print of coffee cups on a table, with the words \"good trouble\" shown on the wall above",
+				"Fused glass garden art, a light filtering rectangle composed of multicolored blue and yellow stripes",
+				"Red ornamented fused glass sushi plate with two matching condiment plates",
+				"Mint green fused glass shallow bowl with dotted ornament."
+			]
+		},
+		"name": "Rachael Osborn",
+		"bio": [
+			"Rachael will be selling hand-pulled prints and glasswork at the Quartermaster Press Studio at Beall Greenhouses."
+		],
+		"contact": [
+			{
+				"href": "mailto:rachaelosbornart@gmail.com?subject=Beall%20Greenhouses%20Market%20Imbolc%202026",
+				"title": "email Rachael"
+			}
+		]
+	},
+	{
+		"id": "steve",
+		"img": {
+			"src": "/assets/img/2026-imbolc/steve.jpg",
+			"alt": [
+				"A woman smiling in front of a backdrop while holding her red glasses",
+				"A man in a suit with microphone in front of a las vegas backdrop",
+				"A smiling woman in a blue business suit",
+				"A young woman in a hat sweater wearing pink pastel goth style",
+				"A young man holding a guitar in front of several road cases"
+			]
+		},
+		"name": "Steve Rocketkar",
+		"bio": [
+			"Steve Rocketkar is a journalist turned designer turned photographer living and working on Vashon Island. His photo and video practice, Rocketkar Studios, seeks to help each person be seen the way they want to be seen. This market he'll be offering headshot mini photo sessions for the new year, as well as in-person specials on Valentine's Day couples' sessions."
+		],
+		"contact": [
+			{
+				"href": "https://www.rocketkar.com",
+				"title": "rocketkar.com"
+			},
+			{
+				"href": "https://instagram.com/rocketkarstudios",
+				"title": "@rocketkarstudios on instagram"
+			}
+		]
 	}
 ]
