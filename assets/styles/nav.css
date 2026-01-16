@@ -2,9 +2,10 @@
 nav {
 	position: relative;
 	margin: 0 auto 1.5rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
+	display: grid;
+	grid-template: "logo nav";
+	grid-template-rows: 6.75rem;
+	grid-template-columns: 6.75rem auto;
 	background-image: url("/assets/img/greenhouse.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -65,9 +66,8 @@ nav a:not(:has(img)):focus-visible {
 }
 
 nav img {
-	max-height: 6.75rem;
-	max-width: 100%;
-	margin: 0 auto;
+	max-height: 100%;
+	margin: 0;
 	border-radius: 2rem;
 	border: .2rem solid var(--color-accent);
 }
@@ -78,6 +78,11 @@ nav img {
 		outline-offset: 0;
 		outline: .2rem solid var(--color-accent);
 	}
+}
+
+nav a:has(img) {
+	grid-area: logo;
+	justify-self: start;
 }
 
 nav a:has(img):focus {
@@ -91,8 +96,9 @@ nav a:has(img):focus img {
 }
 
 nav ul {
+	grid-area: nav;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	gap: .6rem;
 	align-items: flex-end;
 	flex-flow: column nowrap;
