@@ -174,5 +174,26 @@
 				"title": "@rocketkarstudios on instagram"
 			}
 		]
+	},
+	{
+		"id": "katt",
+		"img": {
+			"src": "/assets/img/2026-imbolc/katt.jpg",
+			"alt": [
+				"A young woman standing in the trees with blue hair, red glasses, and a rainbow shirt. She is looking very thoughtful.",
+				"A hand holding a three point weaving of green reeds against an old red building"
+			]
+		},
+		"name": "Katt Rouse-Riley",
+		"bio": [
+			"Katt will have materials on hand to make your own Brigid's cross!",
+			"Come learn a little bit about Imbolc, the Goddess Brigid, and take home this beautiful symbol crafted by your own hands."
+		],
+		"contact": [
+			{
+				"href": "mailto:beallgreenhouses@gmail.com?subject=Beall%20Greenhouses%20Market%20Imbolc%202026%20-%20Katt",
+				"title": "email Katt"
+			}
+		]
 	}
 ]
