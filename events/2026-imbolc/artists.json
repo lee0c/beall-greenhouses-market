@@ -196,5 +196,78 @@
 				"title": "email Katt"
 			}
 		]
+	},
+	{
+		"id": "mags",
+		"img": {
+			"src": "/assets/img/2026-imbolc/mags.jpg",
+			"alt": [
+				"This is a picture of a small piece of wood covered in dried lichen and moss, with what appears to be glass like white mushrooms. The stems of the mushrooms are created over wire fairy lights. When lit, the caps emit a warm magical light. Sculpture embellished with locally gathered acorns and eucalyptus seeds.",
+				"A picture of an older white person with long green and light brown hair and bangs. They are looking looking sideways with a slight smile.",
+				"This golden yellow satin dress is mounted on a wooden base and dress form that lights from inside. Constructed from several dresses and embellished with vintage hand dyed ribbon and mulberry paper leaves in different shades of green. The bodice is fitted in trimmed in ribbon. The skirt is filled out with a handmade crinoline under skirt. Excluding the wings made of skeletonized leaves, this fantasy dress on the stand is about 12 inches tall."
+			]
+		},
+		"name": "Mags McGinnis",
+		"bio": [
+			"I've been collecting bits and bobs and tiny shiny things for many years. I make small odd little things out of found objects, embellished with things from my collection. This market I will also be offering bathing salts (pre-made or mix your own ) in the spirit of Imbolc and spring cleaning."
+		],
+		"contact": [
+			{
+				"href": "https://www.instagram.com/worldsinsideworlds/",
+				"title": "@worldsinsideworlds on instagram"
+			}
+		]
+	},
+	{
+		"id": "jon",
+		"img": {
+			"src": "/assets/img/2026-imbolc/jon.jpg",
+			"alt": [
+				"Cast from concrete and shaped by intention, these votive candle holders evoke post-industrial rubble, as if salvaged from the ruins of a failed civilization. Their fractured forms and raw textures suggest remnants of structures once built for permanence, now repurposed to hold light. Each piece bears subtle fire-kissed colorations, with scorched tones and darkened edges that hint at having endured extreme heat. Traces of rust emerge like archaeological evidence, reinforcing the sense of age, collapse, and survival. Together, they transform ruin into ritual, offering a quiet promise of illumination and renewal.",
+				"Mithran is a small-batch, dual-extracted mushroom tonic made from foraged Red Belted Conk (Fomitopsis pinicola) and Artist’s Conk (Ganoderma applanatum). Using both alcohol and water extraction, it captures a wide range of traditionally valued compounds, including polysaccharides, triterpenes, phenolics, and bitter terpenoids. Mithran has a long history of folk use for supporting inflammation balance, immune function, digestion, and liver health. Research on these conks shows antioxidant activity and alcohol-soluble compounds with activity against cancer cells and tumor growth in laboratory settings."
+			]
+		},
+		"name": "Jon Haaland",
+		"bio": [
+			"Jon Haaland is a mixed media artist, photographer and designer hailing from the Pacific Northwest. With an innate passion for blending mediums and exploring the interplay between man and nature, Jon draws his inspiration from the intrinsic harmony of nature and the pressures of man. Through his mixed media creations, he intertwines natural elements constructing a unique narrative that speaks to the deep interplay between civilization and the environment."
+		],
+		"contact": [
+			{
+				"href": "https://jonhaalandart.com",
+				"title": "jonhaalandart.com"
+			},
+			{
+				"href": "mailto:jonhaalandart@gmail.com?subject=Beall%20Greenhouses%20Market%20Imbolc%202026",
+				"title": "email Jon"
+			}
+		]
+	},
+	{
+		"id": "julie",
+		"img": {
+			"src": "/assets/img/2026-imbolc/julie.jpg",
+			"alt": [
+				"Hand spun yard in beautiful spring hues, marled",
+				"knitting made from hand spun yarn"
+			]
+		},
+		"name": "Julie Shannon",
+		"bio": [
+			"Hand-dyed and hand-spun yarns, rustic soaps, spa cloths, and Julie's Amazing Sweet 'n Sassy Nuts."
+		],
+		"contact": [
+			{
+				"href": "mailto:shannon.julie@gmail.com?subject=Beall%20Greenhouses%20Market%20Imbolc%202026",
+				"title": "email Julie"
+			},
+			{
+				"href": "tel:2063534664",
+				"title": "call or text Julie"
+			},
+			{
+				"href": "https://www.threads.com/@joypup98070",
+				"title": "Julie Shannon on threads"
+			}
+		]
 	}
 ]
