@@ -273,5 +273,36 @@
 				"title": "Julie Shannon on threads"
 			}
 		]
+	},
+	{
+		"id": "logan",
+		"img": {
+			"src": "/assets/img/2026-imbolc/logan.jpg",
+			"alt": [
+				"moon jellyfish on dark background",
+				"Spruce trees in mist",
+				"Opalescent nudibranch",
+				"Salmon troller in front of alaskan volcano",
+				"Underwater photo of bull kelp"
+			]
+		},
+		"name": "Logan Price Photography",
+		"bio": [
+			"Unique underwater photographs of local northwest sea creatures taken while freediving, and stunning large format land-and-seascapes from Southeast Alaska."
+		],
+		"contact": [
+			{
+				"href": "https://www.anthozote.com",
+				"title": "anthozote.com"
+			},
+			{
+				"href": "https://www.instagram.com/anthozote/",
+				"title": "@anthozote on instagram"
+			},
+			{
+				"href": "https://www.tiktok.com/@anthozote",
+				"title": "@anthozote on tiktok"
+			}
+		]
 	}
 ]
