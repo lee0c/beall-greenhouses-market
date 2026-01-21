@@ -4,8 +4,8 @@ nav {
 	margin: 0 auto 1.5rem;
 	display: grid;
 	grid-template: "logo nav";
-	grid-template-rows: 6.75rem;
-	grid-template-columns: 6.75rem auto;
+	grid-template-rows: 7rem;
+	grid-template-columns: 7rem auto;
 	background-image: url("/assets/img/greenhouse.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -99,7 +99,6 @@ nav ul {
 	grid-area: nav;
 	display: flex;
 	justify-content: space-between;
-	gap: .6rem;
 	align-items: flex-end;
 	flex-flow: column nowrap;
 }
