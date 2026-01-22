@@ -21,7 +21,7 @@
 	grid-template-columns: auto 45%;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 950px) {
 	.artist:nth-child(n) {
 		grid-template:
 			'imgs'
@@ -41,7 +41,7 @@
 	border-radius: 1rem;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 950px) {
 	.artist img {
 		border-radius: 1rem 1rem 0 0;
 		border-bottom: .25rem solid var(--color-accent);
@@ -83,13 +83,10 @@
 	margin-right: 1.75rem;
 }
 
-@media (max-width: 750px) {
-	.artist:nth-child(odd) .description {
-		margin-left: .875rem;
-	}
-
+@media (max-width: 950px) {
+	.artist:nth-child(odd) .description,
 	.artist:nth-child(even) .description {
-		margin-right: .875rem;
+		margin: 0;
 	}
 }
 
