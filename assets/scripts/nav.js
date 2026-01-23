@@ -82,6 +82,7 @@ const footerHTML = `
 		<a href="mailto:beall.greenhouses@gmail.com">email us!</a>
 	</p>
 	<p>brought to you in 2026</p>
+	<p><a href="/attribution">site attribution</a></p>
 `
 
 const populateFooter = function() {

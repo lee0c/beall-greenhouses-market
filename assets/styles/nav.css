@@ -112,6 +112,14 @@ footer {
 	width: 95%;
 	margin: 0 auto;
 	padding: 1rem 0;
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 750px) {
+	footer {
+		flex-flow: column;
+	}
 }
 
 footer p {
@@ -120,6 +128,15 @@ footer p {
 	text-align: center;
 	font-size: .9rem;
 	padding: .25rem;
+}
+
+@media (min-width: 751px) {
+	footer p:nth-child(2)::before {
+		content: "● " / "";
+	}
+	footer p:nth-child(2)::after {
+		content: " ●" / "";
+	}
 }
 
 footer a {
