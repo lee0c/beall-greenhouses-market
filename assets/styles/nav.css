@@ -85,13 +85,13 @@ nav a:has(img) {
 	justify-self: start;
 }
 
-nav a:has(img):focus {
+nav a:has(img):focus-visible {
 	border-radius: 2rem;
 	outline-offset: .2rem;
 	outline: .2rem solid var(--color-accent);
 }
 
-nav a:has(img):focus img {
+nav a:has(img):focus-visible img {
 	outline: none;
 }
 
