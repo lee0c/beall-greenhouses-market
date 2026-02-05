@@ -139,7 +139,9 @@ main li:not(:last-child) {
 	padding: 0 0 .5rem;
 }
 
-/* styles for sets of <p>s under an h2/3/etc vs alone */
+/* styles for sets of <p>s under an h2/3/etc vs alone
+this is done as a class rather than just h2 + p to accomodate
+for multi-<p> segments which can then be wrapped in <div>s */
 .under-header,
 .no-header {
 	background-color: var(--color-bg-alt);
