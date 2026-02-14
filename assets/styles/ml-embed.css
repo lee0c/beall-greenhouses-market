@@ -1,0 +1,41 @@
+.ml-embedded {
+	margin: 2rem auto;
+	border-top: .25rem solid var(--color-accent);
+}
+
+.ml-embedded p {
+	padding: 0;
+}
+
+.ml-form-embedWrapper {
+	border-top-left-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+}
+
+.ml-form-embedContent h4 {
+	font-family: 'Bellota', Arial, Helvetica, sans-serif !important;
+}
+
+#mlb2-37153427.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:hover,
+#mlb2-37153313.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:hover {
+	border-color: var(--color-accent-flipped);
+	outline-offset: 0;
+	outline: .25rem solid var(--color-accent);
+}
+
+#mlb2-37153427.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:focus-visible,
+#mlb2-37153313.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:focus-visible {
+	outline-offset: .25rem;
+	outline: solid .25rem var(--color-accent);
+}
+
+#mlb2-37153427.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover,
+#mlb2-37153313.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {
+	color: var(--color-text) !important;
+}
+
+#mlb2-37153427.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:focus-visible,
+#mlb2-37153313.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:focus-visible {
+	outline-offset: .25rem;
+	outline: solid .25rem var(--color-accent);
+}
